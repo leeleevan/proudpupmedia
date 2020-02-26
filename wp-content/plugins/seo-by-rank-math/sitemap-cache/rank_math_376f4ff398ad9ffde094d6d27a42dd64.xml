@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//proudpupmedia.com/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://proudpupmedia.com/post-sitemap.xml</loc>
+		<lastmod>2019-10-23T18:27:18-06:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://proudpupmedia.com/page-sitemap.xml</loc>
+		<lastmod>2020-02-05T11:06:18-07:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://proudpupmedia.com/category-sitemap.xml</loc>
+		<lastmod>2019-10-23T18:27:18-06:00</lastmod>
+	</sitemap>
+</sitemapindex>

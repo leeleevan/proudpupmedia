@@ -1,0 +1,538 @@
+[09-Sep-2019 18:11:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Core\Documents_Manager' not found in /home/proudpup/public_html/wp-content/plugins/elementor/includes/plugin.php:544
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor/includes/plugin.php(479): Elementor\Plugin->init_components()
+#1 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Plugin->init('')
+#2 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home/proudpup/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home/proudpup/public_html/wp-settings.php(525): do_action('init')
+#5 /home/proudpup/public_html/wp-config.php(78): require_once('/home/proudpup/...')
+#6 /home/proudpup/public_html/wp-load.php(37): require_once('/home/proudpup/...')
+#7 /home/proudpup/public_html/wp-admin/admin-ajax.php(22): require_once('/home/proudpup/...')
+#8 {main}
+  thrown in /home/proudpup/public_html/wp-content/plugins/elementor/includes/plugin.php on line 544
+[09-Sep-2019 18:16:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Essential_Addons_Elementor\Pro\Classes\Bootstrap' not found in /home/proudpup/public_html/wp-content/plugins/essential-addons-elementor/essential_adons_elementor.php:47
+Stack trace:
+#0 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): {closure}('')
+#1 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/proudpup/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/proudpup/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Bootstrap.php(64): do_action('eael/before_ini...')
+#4 /home/proudpup/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Classes/Bootstrap.php(50): Essential_Addons_Elementor\Classes\Bootstrap->__construct()
+#5 /home/proudpup/public_html/wp-content/plugins/essential-addons-for-elementor-lite/essential_adons_elementor.php(51): Essential_Addons_Elementor\Classes\Bootstrap::instance()
+#6 /home/proudpup/public_html/wp-includes/c in /home/proudpup/public_html/wp-content/plugins/essential-addons-elementor/essential_adons_elementor.php on line 47
+[09-Sep-2019 18:19:21 UTC] PHP Fatal error:  Uncaught Error: Class 'ElementorPro\Modules\ThemeBuilder\Documents\Header' not found in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/templates-types-manager.php:37
+Stack trace:
+#0 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): ElementorPro\Modules\ThemeBuilder\Classes\Templates_Types_Manager->register_documents(Object(Elementor\Core\Documents_Manager))
+#1 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/proudpup/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home/proudpup/public_html/wp-content/plugins/elementor/core/documents-manager.php(663): do_action('elementor/docum...', Object(Elementor\Core\Documents_Manager))
+#4 /home/proudpup/public_html/wp-content/plugins/elementor/core/documents-manager.php(177): Elementor\Core\Documents_Manager->register_types()
+#5 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/module.php(95): Elementor\C in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/templates-types-manager.php on line 37
+[09-Sep-2019 18:19:47 UTC] PHP Fatal error:  Uncaught Error: Class 'ElementorPro\Modules\Forms\Actions\Redirect' not found in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/forms/module.php:141
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor/core/base/module.php(83): ElementorPro\Modules\Forms\Module->__construct()
+#1 /home/proudpup/public_html/wp-content/plugins/elementor-pro/includes/modules-manager.php(59): Elementor\Core\Base\Module::instance()
+#2 /home/proudpup/public_html/wp-content/plugins/elementor-pro/plugin.php(269): ElementorPro\Manager->__construct()
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): ElementorPro\Plugin->on_elementor_init('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#6 /home/proudpup/public_html/wp-content/plugins/elementor/includes/plugin.php(489): do_action('elementor/init')
+#7 /home/proudpup/public_html/wp-includes/class- in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/forms/module.php on line 141
+[09-Sep-2019 18:21:58 UTC] PHP Fatal error:  Trait 'Essential_Addons_Elementor\Pro\Classes\WPML\Eael_WPML' not found in /home/proudpup/public_html/wp-content/plugins/essential-addons-elementor/includes/Classes/Bootstrap.php on line 17
+[09-Sep-2019 20:41:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[09-Sep-2019 20:41:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[09-Sep-2019 20:41:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[09-Sep-2019 20:41:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[09-Sep-2019 20:42:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[09-Sep-2019 20:42:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[09-Sep-2019 20:42:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[09-Sep-2019 20:42:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[09-Sep-2019 20:53:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[09-Sep-2019 20:54:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[09-Sep-2019 20:54:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[09-Sep-2019 20:54:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[09-Sep-2019 20:54:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[09-Sep-2019 20:55:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:259
+Stack trace:
+#0 /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(180): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(52132, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/proudpup/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/proudpup/public_html/wp-includes/class-wp-hook.php(286): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/proudpup/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/proudpup/p in /home/proudpup/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 259
+[10-Sep-2019 16:57:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 16:57:07 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 16:57:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 16:57:44 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 17:08:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 17:08:46 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 17:09:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 17:09:34 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 17:12:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 17:12:16 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 17:52:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 17:52:11 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 18:36:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 18:36:15 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 18:37:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 18:37:48 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 18:38:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 18:38:22 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 18:39:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 18:39:11 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 18:39:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 18:39:44 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 18:40:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 18:40:51 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 20:02:36 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[10-Sep-2019 20:05:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 20:05:31 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 20:06:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 20:06:00 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 20:06:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 20:06:25 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 20:07:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[10-Sep-2019 20:07:31 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[10-Sep-2019 20:13:46 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[10-Sep-2019 20:22:41 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[11-Sep-2019 15:24:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:24:29 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:25:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:25:26 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:26:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:26:01 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:28:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:28:08 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:28:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:28:36 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:29:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:29:36 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:32:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:32:25 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:33:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:33:06 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:34:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:34:50 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:35:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:35:50 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:37:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:37:26 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:38:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:38:00 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:38:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:38:21 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:39:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:39:03 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:40:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:40:42 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:45:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:45:03 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:45:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:45:48 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:46:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:46:20 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:52:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:52:11 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:52:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:52:38 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:54:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:54:12 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 15:57:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 15:57:14 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 16:02:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 16:02:07 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 16:05:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 16:05:39 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 16:07:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 16:07:18 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 16:09:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 16:09:11 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 16:14:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 16:14:54 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 16:16:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 16:16:12 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 16:16:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 16:16:48 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[11-Sep-2019 16:36:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[11-Sep-2019 16:36:23 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[13-Sep-2019 18:59:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[13-Sep-2019 18:59:23 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[13-Sep-2019 19:02:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[13-Sep-2019 19:02:04 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[13-Sep-2019 19:03:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 284
+[13-Sep-2019 19:03:11 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 477
+[13-Sep-2019 19:30:05 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[13-Sep-2019 19:39:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403491'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568403551
+			 WHERE id = 75'
+			   AND last_locked_at <= '1568403491'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:39:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403492'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568403552
+			 WHERE id = 75'
+			   AND last_locked_at <= '1568403492'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:39:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403493'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568403553
+			 WHERE id = 75'
+			   AND last_locked_at <= '1568403493'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:41:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403610'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568403670
+			 WHERE id = 81'
+			   AND last_locked_at <= '1568403610'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:41:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403611'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568403671
+			 WHERE id = 81'
+			   AND last_locked_at <= '1568403611'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:41:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403612'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568403672
+			 WHERE id = 81'
+			   AND last_locked_at <= '1568403612'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:43:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403731'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568403791
+			 WHERE id = 88'
+			   AND last_locked_at <= '1568403731'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:43:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403732'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568403792
+			 WHERE id = 88'
+			   AND last_locked_at <= '1568403732'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:43:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403733'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568403793
+			 WHERE id = 88'
+			   AND last_locked_at <= '1568403733'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:45:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403850'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568403910
+			 WHERE id = 96'
+			   AND last_locked_at <= '1568403850'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:45:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403851'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568403911
+			 WHERE id = 96'
+			   AND last_locked_at <= '1568403851'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:45:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403852'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568403912
+			 WHERE id = 96'
+			   AND last_locked_at <= '1568403852'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:47:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403970'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568404030
+			 WHERE id = 104'
+			   AND last_locked_at <= '1568403970'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:47:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403971'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568404031
+			 WHERE id = 104'
+			   AND last_locked_at <= '1568403971'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:47:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568403972'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568404032
+			 WHERE id = 104'
+			   AND last_locked_at <= '1568403972'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:49:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568404090'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568404150
+			 WHERE id = 110'
+			   AND last_locked_at <= '1568404090'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:49:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568404091'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568404151
+			 WHERE id = 110'
+			   AND last_locked_at <= '1568404091'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:49:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568404092'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568404152
+			 WHERE id = 110'
+			   AND last_locked_at <= '1568404092'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:51:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568404210'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568404270
+			 WHERE id = 124'
+			   AND last_locked_at <= '1568404210'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:51:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568404211'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568404271
+			 WHERE id = 124'
+			   AND last_locked_at <= '1568404211'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:51:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568404212'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568404272
+			 WHERE id = 124'
+			   AND last_locked_at <= '1568404212'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:53:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568404330'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568404390
+			 WHERE id = 131'
+			   AND last_locked_at <= '1568404330'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:53:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568404331'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568404391
+			 WHERE id = 131'
+			   AND last_locked_at <= '1568404331'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:53:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+			   AND last_locked_at <= '1568404332'' at line 3 for query 
+			UPDATE wp_dvfrxw836y_tm_tasks
+			   SET last_locked_at = 1568404392
+			 WHERE id = 131'
+			   AND last_locked_at <= '1568404332'
+		 made by do_action('wp_ajax_updraft_smush_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, Updraft_Smush_Manager->updraft_smush_ajax, Updraft_Smush_Manager_Commands->process_pending_images, Updraft_Smush_Manager_Commands->process_bulk_smush, Updraft_Smush_Manager->process_bulk_smush, Updraft_Task_Manager_1_2->process_queue, Updraft_Task_Manager_1_2->process_task, Updraft_Task_1_1->attempt, Updraft_Task_1_1->lock
+[13-Sep-2019 19:59:13 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[13-Sep-2019 20:20:17 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[14-Sep-2019 16:37:13 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[14-Sep-2019 16:45:17 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:32:42 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:35:51 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:35:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[16-Sep-2019 20:35:57 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[16-Sep-2019 20:36:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[16-Sep-2019 20:36:43 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[16-Sep-2019 20:37:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[16-Sep-2019 20:37:05 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[16-Sep-2019 20:37:54 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:40:36 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:41:34 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:42:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[16-Sep-2019 20:42:32 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[16-Sep-2019 20:42:40 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:42:45 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:43:12 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:44:09 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:47:11 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:47:32 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:48:53 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:49:17 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:51:26 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:55:15 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:57:46 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[16-Sep-2019 20:58:46 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 16:49:54 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 16:56:05 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 17:00:38 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 17:00:52 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 17:01:03 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 17:02:51 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 17:07:52 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 17:10:42 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 17:14:35 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 17:37:40 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 18:13:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[17-Sep-2019 18:13:25 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[17-Sep-2019 18:14:46 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 18:15:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[17-Sep-2019 18:15:32 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[17-Sep-2019 18:18:58 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 18:21:53 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 18:50:16 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 18:51:23 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 18:52:26 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[17-Sep-2019 18:54:25 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 15:29:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 15:29:03 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 15:30:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 15:30:22 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 15:32:41 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 15:36:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 15:36:26 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 15:42:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 15:42:01 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 15:42:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 15:42:01 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 15:42:41 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 15:44:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 15:44:47 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 15:44:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 15:44:47 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 15:46:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 15:46:00 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 15:46:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 15:46:00 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 15:46:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 15:46:44 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 15:46:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 15:46:44 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 15:47:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 15:47:31 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 15:47:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 15:47:31 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 16:43:06 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 16:56:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 16:56:34 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 16:57:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 16:57:43 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 17:05:13 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 17:05:50 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 17:07:59 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 17:12:43 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 17:16:43 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 17:19:22 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 17:23:08 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 17:37:11 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 18:35:57 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 18:50:08 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 19:02:53 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 20:08:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 20:08:19 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 20:14:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 20:14:33 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 20:25:51 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 20:28:55 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 20:32:02 UTC] PHP Warning:  filesize(): stat failed for /home/proudpup/public_html/wp-content/uploads/2019/09/main-puppy-water-768x634.jpg in /home/proudpup/public_html/wp-content/plugins/wp-optimize/includes/class-updraft-smush-manager.php on line 516
+[20-Sep-2019 20:32:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 20:32:17 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 20:34:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 20:34:18 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 20:34:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 20:34:18 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 20:35:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 20:35:55 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 20:36:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 20:36:17 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[20-Sep-2019 20:36:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[20-Sep-2019 20:36:17 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[24-Sep-2019 16:30:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 288
+[24-Sep-2019 16:30:08 UTC] PHP Warning:  Division by zero in /home/proudpup/public_html/wp-content/plugins/elementor/modules/usage/module.php on line 481
+[13-Feb-2020 18:46:10 UTC] PHP Warning:  Creating default object from empty value in /home/momparad/public_html/proudpupmedia.com/wp-includes/taxonomy.php on line 537

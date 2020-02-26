@@ -1,0 +1,982 @@
+[2019-09-16 20:43:36 : INFO] - Re_Smush_It_Task with attachment ID : 53285, autocreated on : September 16, 2019 08:43:36 
+[2019-09-16 20:47:56 : INFO] - Re_Smush_It_Task with attachment ID : 53291, autocreated on : September 16, 2019 08:47:56 
+[2019-09-16 20:48:36 : INFO] - 
+ 
+[2019-09-16 20:48:36 : INFO] - Header for logs at time:  Mon, 16 Sep 2019 20:48:36 +0000 on https://proudpupmedia.com 
+[2019-09-16 20:48:36 : INFO] - WP: 5.2.3 
+[2019-09-16 20:48:36 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-16 20:48:36 : INFO] - MySQL: 5.6.40 
+[2019-09-16 20:48:36 : INFO] - WPLANG: en_CA 
+[2019-09-16 20:48:36 : INFO] - Server: Apache 
+[2019-09-16 20:48:36 : INFO] - Outbound connections: N 
+[2019-09-16 20:48:36 : INFO] - safe_mode: 0 
+[2019-09-16 20:48:36 : INFO] - max_execution_time: 120 
+[2019-09-16 20:48:36 : INFO] - memory_limit: 768M (used: 13M | 14M) 
+[2019-09-16 20:48:36 : INFO] - multisite: N 
+[2019-09-16 20:48:36 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-16 20:48:36 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2019-09-16 20:48:36 : INFO] - Set semaphore last lock (smush) time to 2019-09-16 20:48:36 
+[2019-09-16 20:48:36 : INFO] - Semaphore lock (smush) complete 
+[2019-09-16 20:48:36 : INFO] - Processing task with ID : 176, and type 'smush' 
+[2019-09-16 20:48:36 : INFO] - Re_Smush_It_Task with attachment ID : 53285, autocreated on : September 16, 2019 08:43:36 
+[2019-09-16 20:48:36 : INFO] - 100 
+[2019-09-16 20:48:41 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/cookie-policy-updraft-pre-smush-original.jpg 
+[2019-09-16 20:48:41 : INFO] - Re_Smush_It_Task with attachment ID : 53285, autocreated on : September 16, 2019 08:43:36 
+[2019-09-16 20:48:41 : INFO] - 100 
+[2019-09-16 20:48:42 : INFO] - Re_Smush_It_Task with attachment ID : 53285, autocreated on : September 16, 2019 08:43:36 
+[2019-09-16 20:48:42 : INFO] - 100 
+[2019-09-16 20:48:42 : INFO] - Re_Smush_It_Task with attachment ID : 53285, autocreated on : September 16, 2019 08:43:36 
+[2019-09-16 20:48:42 : INFO] - 100 
+[2019-09-16 20:48:43 : INFO] - Re_Smush_It_Task with attachment ID : 53285, autocreated on : September 16, 2019 08:43:36 
+[2019-09-16 20:48:43 : INFO] - 100 
+[2019-09-16 20:48:44 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/cookie-policy.jpg.The file was compressed from 173.32 KB to 160.37 KB saving 7.47 percent using WP-Optimize 
+[2019-09-16 20:48:44 : INFO] - Completed processing task with ID : 176, and type 'smush' 
+[2019-09-16 20:48:44 : INFO] - Processing task with ID : 177, and type 'smush' 
+[2019-09-16 20:48:44 : INFO] - Re_Smush_It_Task with attachment ID : 53291, autocreated on : September 16, 2019 08:47:56 
+[2019-09-16 20:48:44 : INFO] - 100 
+[2019-09-16 20:48:45 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/disclosure-policy-updraft-pre-smush-original.gif 
+[2019-09-16 20:48:45 : INFO] - Re_Smush_It_Task with attachment ID : 53291, autocreated on : September 16, 2019 08:47:56 
+[2019-09-16 20:48:45 : INFO] - 100 
+[2019-09-16 20:48:46 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/disclosure-policy.gif.The file was compressed from 6.25 KB to 6.25 KB saving 0 percent using WP-Optimize 
+[2019-09-16 20:48:46 : INFO] - Completed processing task with ID : 177, and type 'smush' 
+[2019-09-16 20:48:46 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-16 20:48:46 : INFO] - Semaphore (smush) unlocked 
+[2019-09-16 20:48:46 : INFO] - Successfully processed the queue (smush). 2 tasks were processed out of 2. 
+[2019-09-16 20:48:46 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-09-16 20:48:46 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2019-09-16 20:50:07 : INFO] - Re_Smush_It_Task with attachment ID : 53294, autocreated on : September 16, 2019 08:50:07 
+[2019-09-16 20:58:38 : INFO] - 
+ 
+[2019-09-16 20:58:38 : INFO] - Header for logs at time:  Mon, 16 Sep 2019 20:58:38 +0000 on https://proudpupmedia.com 
+[2019-09-16 20:58:38 : INFO] - WP: 5.2.3 
+[2019-09-16 20:58:38 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-16 20:58:38 : INFO] - MySQL: 5.6.40 
+[2019-09-16 20:58:38 : INFO] - WPLANG: en_CA 
+[2019-09-16 20:58:38 : INFO] - Server: Apache 
+[2019-09-16 20:58:38 : INFO] - Outbound connections: N 
+[2019-09-16 20:58:38 : INFO] - safe_mode: 0 
+[2019-09-16 20:58:38 : INFO] - max_execution_time: 120 
+[2019-09-16 20:58:38 : INFO] - memory_limit: 768M (used: 13M | 14M) 
+[2019-09-16 20:58:38 : INFO] - multisite: N 
+[2019-09-16 20:58:38 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-16 20:58:38 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-09-16 20:58:38 : INFO] - Set semaphore last lock (smush) time to 2019-09-16 20:58:38 
+[2019-09-16 20:58:38 : INFO] - Semaphore lock (smush) complete 
+[2019-09-16 20:58:38 : INFO] - Processing task with ID : 178, and type 'smush' 
+[2019-09-16 20:58:38 : INFO] - Re_Smush_It_Task with attachment ID : 53294, autocreated on : September 16, 2019 08:50:07 
+[2019-09-16 20:58:38 : INFO] - 100 
+[2019-09-16 20:58:42 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/cat-dog-giving-back-updraft-pre-smush-original.jpg 
+[2019-09-16 20:58:42 : INFO] - Re_Smush_It_Task with attachment ID : 53294, autocreated on : September 16, 2019 08:50:07 
+[2019-09-16 20:58:42 : INFO] - 100 
+[2019-09-16 20:58:42 : INFO] - Re_Smush_It_Task with attachment ID : 53294, autocreated on : September 16, 2019 08:50:07 
+[2019-09-16 20:58:42 : INFO] - 100 
+[2019-09-16 20:58:43 : INFO] - Re_Smush_It_Task with attachment ID : 53294, autocreated on : September 16, 2019 08:50:07 
+[2019-09-16 20:58:43 : INFO] - 100 
+[2019-09-16 20:58:44 : INFO] - Re_Smush_It_Task with attachment ID : 53294, autocreated on : September 16, 2019 08:50:07 
+[2019-09-16 20:58:44 : INFO] - 100 
+[2019-09-16 20:58:45 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/cat-dog-giving-back.jpg.The file was compressed from 219.07 KB to 204.35 KB saving 6.72 percent using WP-Optimize 
+[2019-09-16 20:58:45 : INFO] - Completed processing task with ID : 178, and type 'smush' 
+[2019-09-16 20:58:45 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-16 20:58:45 : INFO] - Semaphore (smush) unlocked 
+[2019-09-16 20:58:45 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-09-16 20:58:45 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-09-16 20:58:45 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-09-16 21:08:40 : INFO] - 
+ 
+[2019-09-16 21:08:40 : INFO] - Header for logs at time:  Mon, 16 Sep 2019 21:08:40 +0000 on https://proudpupmedia.com 
+[2019-09-16 21:08:40 : INFO] - WP: 5.2.3 
+[2019-09-16 21:08:40 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-16 21:08:40 : INFO] - MySQL: 5.6.40 
+[2019-09-16 21:08:40 : INFO] - WPLANG: en_CA 
+[2019-09-16 21:08:40 : INFO] - Server: Apache 
+[2019-09-16 21:08:40 : INFO] - Outbound connections: N 
+[2019-09-16 21:08:40 : INFO] - safe_mode: 0 
+[2019-09-16 21:08:40 : INFO] - max_execution_time: 120 
+[2019-09-16 21:08:40 : INFO] - memory_limit: 768M (used: 13M | 14M) 
+[2019-09-16 21:08:40 : INFO] - multisite: N 
+[2019-09-16 21:08:40 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-16 21:08:40 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-09-17 16:59:50 : INFO] - Re_Smush_It_Task with attachment ID : 53302, autocreated on : September 17, 2019 04:59:50 
+[2019-09-17 16:59:52 : INFO] - Re_Smush_It_Task with attachment ID : 53303, autocreated on : September 17, 2019 04:59:52 
+[2019-09-17 16:59:54 : INFO] - Re_Smush_It_Task with attachment ID : 53304, autocreated on : September 17, 2019 04:59:54 
+[2019-09-17 16:59:57 : INFO] - Re_Smush_It_Task with attachment ID : 53305, autocreated on : September 17, 2019 04:59:57 
+[2019-09-17 16:59:59 : INFO] - Re_Smush_It_Task with attachment ID : 53306, autocreated on : September 17, 2019 04:59:59 
+[2019-09-17 17:00:02 : INFO] - Re_Smush_It_Task with attachment ID : 53307, autocreated on : September 17, 2019 05:00:02 
+[2019-09-17 17:00:05 : INFO] - Re_Smush_It_Task with attachment ID : 53308, autocreated on : September 17, 2019 05:00:05 
+[2019-09-17 17:00:07 : INFO] - Re_Smush_It_Task with attachment ID : 53309, autocreated on : September 17, 2019 05:00:07 
+[2019-09-17 17:00:09 : INFO] - Re_Smush_It_Task with attachment ID : 53310, autocreated on : September 17, 2019 05:00:09 
+[2019-09-17 17:00:11 : INFO] - Re_Smush_It_Task with attachment ID : 53311, autocreated on : September 17, 2019 05:00:11 
+[2019-09-17 17:00:13 : INFO] - Re_Smush_It_Task with attachment ID : 53312, autocreated on : September 17, 2019 05:00:13 
+[2019-09-17 17:03:11 : INFO] - Re_Smush_It_Task with attachment ID : 53316, autocreated on : September 17, 2019 05:03:11 
+[2019-09-17 17:05:11 : INFO] - 
+ 
+[2019-09-17 17:05:11 : INFO] - Header for logs at time:  Tue, 17 Sep 2019 17:05:11 +0000 on https://proudpupmedia.com 
+[2019-09-17 17:05:11 : INFO] - WP: 5.2.3 
+[2019-09-17 17:05:11 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-17 17:05:11 : INFO] - MySQL: 5.6.40 
+[2019-09-17 17:05:11 : INFO] - WPLANG: en_CA 
+[2019-09-17 17:05:11 : INFO] - Server: Apache 
+[2019-09-17 17:05:11 : INFO] - Outbound connections: N 
+[2019-09-17 17:05:11 : INFO] - safe_mode: 0 
+[2019-09-17 17:05:11 : INFO] - max_execution_time: 120 
+[2019-09-17 17:05:11 : INFO] - memory_limit: 768M (used: 13M | 14M) 
+[2019-09-17 17:05:11 : INFO] - multisite: N 
+[2019-09-17 17:05:11 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-17 17:05:11 : INFO] - A total of 12 tasks of type smush found and will be processed in this iteration 
+[2019-09-17 17:05:11 : INFO] - Set semaphore last lock (smush) time to 2019-09-17 17:05:11 
+[2019-09-17 17:05:11 : INFO] - Semaphore lock (smush) complete 
+[2019-09-17 17:05:11 : INFO] - Processing task with ID : 179, and type 'smush' 
+[2019-09-17 17:05:11 : INFO] - Re_Smush_It_Task with attachment ID : 53302, autocreated on : September 17, 2019 04:59:50 
+[2019-09-17 17:05:11 : INFO] - 100 
+[2019-09-17 17:05:14 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/about-paige-updraft-pre-smush-original.jpg 
+[2019-09-17 17:05:14 : INFO] - Re_Smush_It_Task with attachment ID : 53302, autocreated on : September 17, 2019 04:59:50 
+[2019-09-17 17:05:14 : INFO] - 100 
+[2019-09-17 17:05:15 : INFO] - Re_Smush_It_Task with attachment ID : 53302, autocreated on : September 17, 2019 04:59:50 
+[2019-09-17 17:05:15 : INFO] - 100 
+[2019-09-17 17:05:16 : INFO] - Re_Smush_It_Task with attachment ID : 53302, autocreated on : September 17, 2019 04:59:50 
+[2019-09-17 17:05:16 : INFO] - 100 
+[2019-09-17 17:05:18 : INFO] - Re_Smush_It_Task with attachment ID : 53302, autocreated on : September 17, 2019 04:59:50 
+[2019-09-17 17:05:18 : INFO] - 100 
+[2019-09-17 17:05:19 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/about-paige.jpg.The file was compressed from 76.96 KB to 76.96 KB saving 0 percent using WP-Optimize 
+[2019-09-17 17:05:19 : INFO] - Completed processing task with ID : 179, and type 'smush' 
+[2019-09-17 17:05:19 : INFO] - Processing task with ID : 180, and type 'smush' 
+[2019-09-17 17:05:19 : INFO] - Re_Smush_It_Task with attachment ID : 53303, autocreated on : September 17, 2019 04:59:52 
+[2019-09-17 17:05:19 : INFO] - 100 
+[2019-09-17 17:05:21 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/about-us-updraft-pre-smush-original.jpg 
+[2019-09-17 17:05:21 : INFO] - Re_Smush_It_Task with attachment ID : 53303, autocreated on : September 17, 2019 04:59:52 
+[2019-09-17 17:05:21 : INFO] - 100 
+[2019-09-17 17:05:21 : INFO] - Re_Smush_It_Task with attachment ID : 53303, autocreated on : September 17, 2019 04:59:52 
+[2019-09-17 17:05:21 : INFO] - 100 
+[2019-09-17 17:05:22 : INFO] - Re_Smush_It_Task with attachment ID : 53303, autocreated on : September 17, 2019 04:59:52 
+[2019-09-17 17:05:22 : INFO] - 100 
+[2019-09-17 17:05:23 : INFO] - Re_Smush_It_Task with attachment ID : 53303, autocreated on : September 17, 2019 04:59:52 
+[2019-09-17 17:05:23 : INFO] - 100 
+[2019-09-17 17:05:25 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/about-us.jpg.The file was compressed from 76.32 KB to 76.32 KB saving 0 percent using WP-Optimize 
+[2019-09-17 17:05:25 : INFO] - Completed processing task with ID : 180, and type 'smush' 
+[2019-09-17 17:05:25 : INFO] - Processing task with ID : 181, and type 'smush' 
+[2019-09-17 17:05:25 : INFO] - Re_Smush_It_Task with attachment ID : 53304, autocreated on : September 17, 2019 04:59:54 
+[2019-09-17 17:05:25 : INFO] - 100 
+[2019-09-17 17:05:27 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/content-management-updraft-pre-smush-original.jpg 
+[2019-09-17 17:05:27 : INFO] - Re_Smush_It_Task with attachment ID : 53304, autocreated on : September 17, 2019 04:59:54 
+[2019-09-17 17:05:27 : INFO] - 100 
+[2019-09-17 17:05:28 : INFO] - Re_Smush_It_Task with attachment ID : 53304, autocreated on : September 17, 2019 04:59:54 
+[2019-09-17 17:05:28 : INFO] - 100 
+[2019-09-17 17:05:29 : INFO] - Re_Smush_It_Task with attachment ID : 53304, autocreated on : September 17, 2019 04:59:54 
+[2019-09-17 17:05:29 : INFO] - 100 
+[2019-09-17 17:05:30 : INFO] - Re_Smush_It_Task with attachment ID : 53304, autocreated on : September 17, 2019 04:59:54 
+[2019-09-17 17:05:30 : INFO] - 100 
+[2019-09-17 17:05:32 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/content-management.jpg.The file was compressed from 77.79 KB to 77.79 KB saving 0 percent using WP-Optimize 
+[2019-09-17 17:05:32 : INFO] - Completed processing task with ID : 181, and type 'smush' 
+[2019-09-17 17:05:32 : INFO] - Set semaphore last lock (smush) time to 2019-09-17 17:05:32 
+[2019-09-17 17:05:32 : INFO] - Processing task with ID : 182, and type 'smush' 
+[2019-09-17 17:05:32 : INFO] - Re_Smush_It_Task with attachment ID : 53305, autocreated on : September 17, 2019 04:59:57 
+[2019-09-17 17:05:32 : INFO] - 100 
+[2019-09-17 17:05:33 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/hosting-updraft-pre-smush-original.jpg 
+[2019-09-17 17:05:33 : INFO] - Re_Smush_It_Task with attachment ID : 53305, autocreated on : September 17, 2019 04:59:57 
+[2019-09-17 17:05:33 : INFO] - 100 
+[2019-09-17 17:05:34 : INFO] - Re_Smush_It_Task with attachment ID : 53305, autocreated on : September 17, 2019 04:59:57 
+[2019-09-17 17:05:34 : INFO] - 100 
+[2019-09-17 17:05:35 : INFO] - Re_Smush_It_Task with attachment ID : 53305, autocreated on : September 17, 2019 04:59:57 
+[2019-09-17 17:05:35 : INFO] - 100 
+[2019-09-17 17:05:37 : INFO] - Re_Smush_It_Task with attachment ID : 53305, autocreated on : September 17, 2019 04:59:57 
+[2019-09-17 17:05:37 : INFO] - 100 
+[2019-09-17 17:05:38 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/hosting.jpg.The file was compressed from 76.02 KB to 76.02 KB saving 0 percent using WP-Optimize 
+[2019-09-17 17:05:38 : INFO] - Completed processing task with ID : 182, and type 'smush' 
+[2019-09-17 17:05:38 : INFO] - Processing task with ID : 183, and type 'smush' 
+[2019-09-17 17:05:38 : INFO] - Re_Smush_It_Task with attachment ID : 53306, autocreated on : September 17, 2019 04:59:59 
+[2019-09-17 17:05:38 : INFO] - 100 
+[2019-09-17 17:05:40 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/plans-updraft-pre-smush-original.jpg 
+[2019-09-17 17:05:40 : INFO] - Re_Smush_It_Task with attachment ID : 53306, autocreated on : September 17, 2019 04:59:59 
+[2019-09-17 17:05:40 : INFO] - 100 
+[2019-09-17 17:05:40 : INFO] - Re_Smush_It_Task with attachment ID : 53306, autocreated on : September 17, 2019 04:59:59 
+[2019-09-17 17:05:40 : INFO] - 100 
+[2019-09-17 17:05:41 : INFO] - Re_Smush_It_Task with attachment ID : 53306, autocreated on : September 17, 2019 04:59:59 
+[2019-09-17 17:05:41 : INFO] - 100 
+[2019-09-17 17:05:42 : INFO] - Re_Smush_It_Task with attachment ID : 53306, autocreated on : September 17, 2019 04:59:59 
+[2019-09-17 17:05:42 : INFO] - 100 
+[2019-09-17 17:05:44 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/plans.jpg.The file was compressed from 76.67 KB to 76.67 KB saving 0 percent using WP-Optimize 
+[2019-09-17 17:05:44 : INFO] - Completed processing task with ID : 183, and type 'smush' 
+[2019-09-17 17:05:44 : INFO] - Processing task with ID : 184, and type 'smush' 
+[2019-09-17 17:05:44 : INFO] - Re_Smush_It_Task with attachment ID : 53307, autocreated on : September 17, 2019 05:00:02 
+[2019-09-17 17:05:44 : INFO] - 100 
+[2019-09-17 17:05:46 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/portfolio-updraft-pre-smush-original.jpg 
+[2019-09-17 17:05:46 : INFO] - Re_Smush_It_Task with attachment ID : 53307, autocreated on : September 17, 2019 05:00:02 
+[2019-09-17 17:05:46 : INFO] - 100 
+[2019-09-17 17:05:48 : INFO] - Re_Smush_It_Task with attachment ID : 53307, autocreated on : September 17, 2019 05:00:02 
+[2019-09-17 17:05:48 : INFO] - 100 
+[2019-09-17 17:05:49 : INFO] - Re_Smush_It_Task with attachment ID : 53307, autocreated on : September 17, 2019 05:00:02 
+[2019-09-17 17:05:49 : INFO] - 100 
+[2019-09-17 17:05:50 : INFO] - Re_Smush_It_Task with attachment ID : 53307, autocreated on : September 17, 2019 05:00:02 
+[2019-09-17 17:05:50 : INFO] - 100 
+[2019-09-17 17:05:52 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/portfolio.jpg.The file was compressed from 77.32 KB to 77.32 KB saving 0 percent using WP-Optimize 
+[2019-09-17 17:05:52 : INFO] - Completed processing task with ID : 184, and type 'smush' 
+[2019-09-17 17:05:52 : INFO] - Set semaphore last lock (smush) time to 2019-09-17 17:05:52 
+[2019-09-17 17:05:52 : INFO] - Processing task with ID : 185, and type 'smush' 
+[2019-09-17 17:05:52 : INFO] - Re_Smush_It_Task with attachment ID : 53308, autocreated on : September 17, 2019 05:00:05 
+[2019-09-17 17:05:52 : INFO] - 100 
+[2019-09-17 17:05:54 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/services-updraft-pre-smush-original.jpg 
+[2019-09-17 17:05:54 : INFO] - Re_Smush_It_Task with attachment ID : 53308, autocreated on : September 17, 2019 05:00:05 
+[2019-09-17 17:05:54 : INFO] - 100 
+[2019-09-17 17:05:55 : INFO] - Re_Smush_It_Task with attachment ID : 53308, autocreated on : September 17, 2019 05:00:05 
+[2019-09-17 17:05:55 : INFO] - 100 
+[2019-09-17 17:05:55 : INFO] - Re_Smush_It_Task with attachment ID : 53308, autocreated on : September 17, 2019 05:00:05 
+[2019-09-17 17:05:55 : INFO] - 100 
+[2019-09-17 17:05:57 : INFO] - Re_Smush_It_Task with attachment ID : 53308, autocreated on : September 17, 2019 05:00:05 
+[2019-09-17 17:05:57 : INFO] - 100 
+[2019-09-17 17:05:58 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/services.jpg.The file was compressed from 76.70 KB to 76.70 KB saving 0 percent using WP-Optimize 
+[2019-09-17 17:05:58 : INFO] - Completed processing task with ID : 185, and type 'smush' 
+[2019-09-17 17:05:58 : INFO] - Processing task with ID : 186, and type 'smush' 
+[2019-09-17 17:05:58 : INFO] - Re_Smush_It_Task with attachment ID : 53309, autocreated on : September 17, 2019 05:00:07 
+[2019-09-17 17:05:58 : INFO] - 100 
+[2019-09-17 17:06:00 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/testimonials-updraft-pre-smush-original.jpg 
+[2019-09-17 17:06:00 : INFO] - Re_Smush_It_Task with attachment ID : 53309, autocreated on : September 17, 2019 05:00:07 
+[2019-09-17 17:06:00 : INFO] - 100 
+[2019-09-17 17:06:01 : INFO] - Re_Smush_It_Task with attachment ID : 53309, autocreated on : September 17, 2019 05:00:07 
+[2019-09-17 17:06:01 : INFO] - 100 
+[2019-09-17 17:06:01 : INFO] - Re_Smush_It_Task with attachment ID : 53309, autocreated on : September 17, 2019 05:00:07 
+[2019-09-17 17:06:01 : INFO] - 100 
+[2019-09-17 17:06:03 : INFO] - Re_Smush_It_Task with attachment ID : 53309, autocreated on : September 17, 2019 05:00:07 
+[2019-09-17 17:06:03 : INFO] - 100 
+[2019-09-17 17:06:04 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/testimonials.jpg.The file was compressed from 76.69 KB to 76.69 KB saving 0 percent using WP-Optimize 
+[2019-09-17 17:06:04 : INFO] - Completed processing task with ID : 186, and type 'smush' 
+[2019-09-17 17:06:04 : INFO] - Processing task with ID : 187, and type 'smush' 
+[2019-09-17 17:06:04 : INFO] - Re_Smush_It_Task with attachment ID : 53310, autocreated on : September 17, 2019 05:00:09 
+[2019-09-17 17:06:04 : INFO] - 100 
+[2019-09-17 17:06:06 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/web-design-updraft-pre-smush-original.jpg 
+[2019-09-17 17:06:06 : INFO] - Re_Smush_It_Task with attachment ID : 53310, autocreated on : September 17, 2019 05:00:09 
+[2019-09-17 17:06:06 : INFO] - 100 
+[2019-09-17 17:06:06 : INFO] - Re_Smush_It_Task with attachment ID : 53310, autocreated on : September 17, 2019 05:00:09 
+[2019-09-17 17:06:06 : INFO] - 100 
+[2019-09-17 17:06:07 : INFO] - Re_Smush_It_Task with attachment ID : 53310, autocreated on : September 17, 2019 05:00:09 
+[2019-09-17 17:06:07 : INFO] - 100 
+[2019-09-17 17:06:08 : INFO] - Re_Smush_It_Task with attachment ID : 53310, autocreated on : September 17, 2019 05:00:09 
+[2019-09-17 17:06:08 : INFO] - 100 
+[2019-09-17 17:06:10 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/web-design.jpg.The file was compressed from 77.07 KB to 77.07 KB saving 0 percent using WP-Optimize 
+[2019-09-17 17:06:10 : INFO] - Completed processing task with ID : 187, and type 'smush' 
+[2019-09-17 17:06:10 : INFO] - Processing task with ID : 188, and type 'smush' 
+[2019-09-17 17:06:10 : INFO] - Re_Smush_It_Task with attachment ID : 53311, autocreated on : September 17, 2019 05:00:11 
+[2019-09-17 17:06:10 : INFO] - 100 
+[2019-09-17 17:10:48 : INFO] - Re_Smush_It_Task with attachment ID : 53319, autocreated on : September 17, 2019 05:10:48 
+[2019-09-17 17:14:20 : INFO] - Re_Smush_It_Task with attachment ID : 53320, autocreated on : September 17, 2019 05:14:20 
+[2019-09-17 17:15:13 : INFO] - 
+ 
+[2019-09-17 17:15:13 : INFO] - Header for logs at time:  Tue, 17 Sep 2019 17:15:13 +0000 on https://proudpupmedia.com 
+[2019-09-17 17:15:13 : INFO] - WP: 5.2.3 
+[2019-09-17 17:15:13 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-17 17:15:13 : INFO] - MySQL: 5.6.40 
+[2019-09-17 17:15:13 : INFO] - WPLANG: en_CA 
+[2019-09-17 17:15:13 : INFO] - Server: Apache 
+[2019-09-17 17:15:13 : INFO] - Outbound connections: N 
+[2019-09-17 17:15:13 : INFO] - safe_mode: 0 
+[2019-09-17 17:15:13 : INFO] - max_execution_time: 120 
+[2019-09-17 17:15:13 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-09-17 17:15:13 : INFO] - multisite: N 
+[2019-09-17 17:15:13 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-17 17:15:13 : INFO] - A total of 5 tasks of type smush found and will be processed in this iteration 
+[2019-09-17 17:15:13 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was stuck, set lock time to 2019-09-17 17:15:13 
+[2019-09-17 17:15:13 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) reset to 1 
+[2019-09-17 17:15:13 : INFO] - Set semaphore last lock (smush) time to 2019-09-17 17:15:13 
+[2019-09-17 17:15:13 : INFO] - Semaphore lock (smush) complete 
+[2019-09-17 17:15:16 : INFO] - Task with ID 188 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2019-09-17 17:15:16 : INFO] - Processing task with ID : 189, and type 'smush' 
+[2019-09-17 17:15:16 : INFO] - Re_Smush_It_Task with attachment ID : 53312, autocreated on : September 17, 2019 05:00:13 
+[2019-09-17 17:15:16 : INFO] - 100 
+[2019-09-17 17:15:19 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/website-management-updraft-pre-smush-original.jpg 
+[2019-09-17 17:15:19 : INFO] - Re_Smush_It_Task with attachment ID : 53312, autocreated on : September 17, 2019 05:00:13 
+[2019-09-17 17:15:19 : INFO] - 100 
+[2019-09-17 17:15:20 : INFO] - Re_Smush_It_Task with attachment ID : 53312, autocreated on : September 17, 2019 05:00:13 
+[2019-09-17 17:15:20 : INFO] - 100 
+[2019-09-17 17:15:20 : INFO] - Re_Smush_It_Task with attachment ID : 53312, autocreated on : September 17, 2019 05:00:13 
+[2019-09-17 17:15:20 : INFO] - 100 
+[2019-09-17 17:15:22 : INFO] - Re_Smush_It_Task with attachment ID : 53312, autocreated on : September 17, 2019 05:00:13 
+[2019-09-17 17:15:22 : INFO] - 100 
+[2019-09-17 17:15:23 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/website-management.jpg.The file was compressed from 77.88 KB to 77.88 KB saving 0 percent using WP-Optimize 
+[2019-09-17 17:15:23 : INFO] - Completed processing task with ID : 189, and type 'smush' 
+[2019-09-17 17:15:23 : INFO] - Processing task with ID : 190, and type 'smush' 
+[2019-09-17 17:15:23 : INFO] - Re_Smush_It_Task with attachment ID : 53316, autocreated on : September 17, 2019 05:03:11 
+[2019-09-17 17:15:23 : INFO] - 100 
+[2019-09-17 17:15:25 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/blog-feature-updraft-pre-smush-original.jpg 
+[2019-09-17 17:15:25 : INFO] - Re_Smush_It_Task with attachment ID : 53316, autocreated on : September 17, 2019 05:03:11 
+[2019-09-17 17:15:25 : INFO] - 100 
+[2019-09-17 17:15:25 : INFO] - Re_Smush_It_Task with attachment ID : 53316, autocreated on : September 17, 2019 05:03:11 
+[2019-09-17 17:15:25 : INFO] - 100 
+[2019-09-17 17:15:26 : INFO] - Re_Smush_It_Task with attachment ID : 53316, autocreated on : September 17, 2019 05:03:11 
+[2019-09-17 17:15:26 : INFO] - 100 
+[2019-09-17 17:15:27 : INFO] - Re_Smush_It_Task with attachment ID : 53316, autocreated on : September 17, 2019 05:03:11 
+[2019-09-17 17:15:27 : INFO] - 100 
+[2019-09-17 17:15:29 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/blog-feature.jpg.The file was compressed from 75.84 KB to 75.84 KB saving 0 percent using WP-Optimize 
+[2019-09-17 17:15:29 : INFO] - Completed processing task with ID : 190, and type 'smush' 
+[2019-09-17 17:15:29 : INFO] - Processing task with ID : 191, and type 'smush' 
+[2019-09-17 17:15:29 : INFO] - Re_Smush_It_Task with attachment ID : 53319, autocreated on : September 17, 2019 05:10:48 
+[2019-09-17 17:15:29 : INFO] - 100 
+[2019-09-17 17:15:31 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/contact-updraft-pre-smush-original.jpg 
+[2019-09-17 17:15:31 : INFO] - Re_Smush_It_Task with attachment ID : 53319, autocreated on : September 17, 2019 05:10:48 
+[2019-09-17 17:15:31 : INFO] - 100 
+[2019-09-17 17:15:31 : INFO] - Re_Smush_It_Task with attachment ID : 53319, autocreated on : September 17, 2019 05:10:48 
+[2019-09-17 17:15:31 : INFO] - 100 
+[2019-09-17 17:15:32 : INFO] - Re_Smush_It_Task with attachment ID : 53319, autocreated on : September 17, 2019 05:10:48 
+[2019-09-17 17:15:32 : INFO] - 100 
+[2019-09-17 17:15:33 : INFO] - Re_Smush_It_Task with attachment ID : 53319, autocreated on : September 17, 2019 05:10:48 
+[2019-09-17 17:15:33 : INFO] - 100 
+[2019-09-17 17:15:35 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/contact.jpg.The file was compressed from 85.70 KB to 79.32 KB saving 7.44 percent using WP-Optimize 
+[2019-09-17 17:15:35 : INFO] - Completed processing task with ID : 191, and type 'smush' 
+[2019-09-17 17:15:35 : INFO] - Set semaphore last lock (smush) time to 2019-09-17 17:15:35 
+[2019-09-17 17:15:35 : INFO] - Processing task with ID : 192, and type 'smush' 
+[2019-09-17 17:15:35 : INFO] - Re_Smush_It_Task with attachment ID : 53320, autocreated on : September 17, 2019 05:14:20 
+[2019-09-17 17:15:35 : INFO] - 100 
+[2019-09-17 17:15:37 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/2019/09/blog-feature-1-updraft-pre-smush-original.jpg 
+[2019-09-17 17:15:37 : INFO] - Re_Smush_It_Task with attachment ID : 53320, autocreated on : September 17, 2019 05:14:20 
+[2019-09-17 17:15:37 : INFO] - 100 
+[2019-09-17 17:15:37 : INFO] - Re_Smush_It_Task with attachment ID : 53320, autocreated on : September 17, 2019 05:14:20 
+[2019-09-17 17:15:37 : INFO] - 100 
+[2019-09-17 17:15:38 : INFO] - Re_Smush_It_Task with attachment ID : 53320, autocreated on : September 17, 2019 05:14:20 
+[2019-09-17 17:15:38 : INFO] - 100 
+[2019-09-17 17:15:39 : INFO] - Re_Smush_It_Task with attachment ID : 53320, autocreated on : September 17, 2019 05:14:20 
+[2019-09-17 17:15:39 : INFO] - 100 
+[2019-09-17 17:15:41 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/2019/09/blog-feature-1.jpg.The file was compressed from 75.84 KB to 75.84 KB saving 0 percent using WP-Optimize 
+[2019-09-17 17:15:41 : INFO] - Completed processing task with ID : 192, and type 'smush' 
+[2019-09-17 17:15:41 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-17 17:15:41 : INFO] - Semaphore (smush) unlocked 
+[2019-09-17 17:15:41 : INFO] - Successfully processed the queue (smush). 5 tasks were processed out of 5. 
+[2019-09-17 17:15:41 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-09-17 17:15:41 : INFO] - Cleaning up tasks of type (smush). A total of 14 tasks will be deleted. 
+[2019-09-17 17:25:20 : INFO] - 
+ 
+[2019-09-17 17:25:20 : INFO] - Header for logs at time:  Tue, 17 Sep 2019 17:25:20 +0000 on https://proudpupmedia.com 
+[2019-09-17 17:25:20 : INFO] - WP: 5.2.3 
+[2019-09-17 17:25:20 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-17 17:25:20 : INFO] - MySQL: 5.6.40 
+[2019-09-17 17:25:20 : INFO] - WPLANG: en_CA 
+[2019-09-17 17:25:20 : INFO] - Server: Apache 
+[2019-09-17 17:25:20 : INFO] - Outbound connections: N 
+[2019-09-17 17:25:20 : INFO] - safe_mode: 0 
+[2019-09-17 17:25:20 : INFO] - max_execution_time: 120 
+[2019-09-17 17:25:20 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-09-17 17:25:20 : INFO] - multisite: N 
+[2019-09-17 17:25:20 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-17 17:25:20 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-09-20 18:36:24 : INFO] - Re_Smush_It_Task with attachment ID : 53437, autocreated on : September 20, 2019 06:36:24 
+[2019-09-20 18:39:21 : INFO] - Re_Smush_It_Task with attachment ID : 53439, autocreated on : September 20, 2019 06:39:21 
+[2019-09-20 18:46:32 : INFO] - 
+ 
+[2019-09-20 18:46:32 : INFO] - Header for logs at time:  Fri, 20 Sep 2019 18:46:32 +0000 on https://proudpupmedia.com 
+[2019-09-20 18:46:32 : INFO] - WP: 5.2.3 
+[2019-09-20 18:46:32 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-20 18:46:32 : INFO] - MySQL: 5.6.40 
+[2019-09-20 18:46:32 : INFO] - WPLANG: en_CA 
+[2019-09-20 18:46:32 : INFO] - Server: Apache 
+[2019-09-20 18:46:32 : INFO] - Outbound connections: N 
+[2019-09-20 18:46:32 : INFO] - safe_mode: 0 
+[2019-09-20 18:46:32 : INFO] - max_execution_time: 120 
+[2019-09-20 18:46:32 : INFO] - memory_limit: 768M (used: 13M | 14M) 
+[2019-09-20 18:46:32 : INFO] - multisite: N 
+[2019-09-20 18:46:32 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-20 18:46:32 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2019-09-20 18:46:32 : INFO] - Set semaphore last lock (smush) time to 2019-09-20 18:46:32 
+[2019-09-20 18:46:32 : INFO] - Semaphore lock (smush) complete 
+[2019-09-20 18:46:32 : INFO] - Processing task with ID : 193, and type 'smush' 
+[2019-09-20 18:46:32 : INFO] - Task with ID 193 and type (smush) failed with error code exceeded_max_filesize - /home/proudpup/public_html/wp-content/uploads/find-media-settings.mov - cannot be optimized, file size is above service provider limit 
+[2019-09-20 18:46:33 : INFO] - Processing task with ID : 194, and type 'smush' 
+[2019-09-20 18:46:33 : INFO] - Re_Smush_It_Task with attachment ID : 53439, autocreated on : September 20, 2019 06:39:21 
+[2019-09-20 18:46:33 : INFO] - 100 
+[2019-09-20 18:46:36 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/find-media-settings-screen-updraft-pre-smush-original.png 
+[2019-09-20 18:46:36 : INFO] - Re_Smush_It_Task with attachment ID : 53439, autocreated on : September 20, 2019 06:39:21 
+[2019-09-20 18:46:36 : INFO] - 100 
+[2019-09-20 18:46:37 : INFO] - Re_Smush_It_Task with attachment ID : 53439, autocreated on : September 20, 2019 06:39:21 
+[2019-09-20 18:46:37 : INFO] - 100 
+[2019-09-20 18:46:38 : INFO] - Re_Smush_It_Task with attachment ID : 53439, autocreated on : September 20, 2019 06:39:21 
+[2019-09-20 18:46:38 : INFO] - 100 
+[2019-09-20 18:46:39 : INFO] - Re_Smush_It_Task with attachment ID : 53439, autocreated on : September 20, 2019 06:39:21 
+[2019-09-20 18:46:39 : INFO] - 100 
+[2019-09-20 18:46:41 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/find-media-settings-screen.png.The file was compressed from 163.81 KB to 44.38 KB saving 72.9 percent using WP-Optimize 
+[2019-09-20 18:46:41 : INFO] - Completed processing task with ID : 194, and type 'smush' 
+[2019-09-20 18:46:41 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-20 18:46:41 : INFO] - Semaphore (smush) unlocked 
+[2019-09-20 18:46:41 : INFO] - Successfully processed the queue (smush). 2 tasks were processed out of 2. 
+[2019-09-20 18:46:41 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-09-20 18:46:41 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2019-09-20 18:56:51 : INFO] - 
+ 
+[2019-09-20 18:56:51 : INFO] - Header for logs at time:  Fri, 20 Sep 2019 18:56:51 +0000 on https://proudpupmedia.com 
+[2019-09-20 18:56:51 : INFO] - WP: 5.2.3 
+[2019-09-20 18:56:51 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-20 18:56:51 : INFO] - MySQL: 5.6.40 
+[2019-09-20 18:56:51 : INFO] - WPLANG: en_CA 
+[2019-09-20 18:56:51 : INFO] - Server: Apache 
+[2019-09-20 18:56:51 : INFO] - Outbound connections: N 
+[2019-09-20 18:56:51 : INFO] - safe_mode: 0 
+[2019-09-20 18:56:51 : INFO] - max_execution_time: 120 
+[2019-09-20 18:56:51 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-09-20 18:56:51 : INFO] - multisite: N 
+[2019-09-20 18:56:51 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-20 18:56:51 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-09-20 19:03:09 : INFO] - Re_Smush_It_Task with attachment ID : 53445, autocreated on : September 20, 2019 07:03:09 
+[2019-09-20 19:08:15 : INFO] - 
+ 
+[2019-09-20 19:08:15 : INFO] - Header for logs at time:  Fri, 20 Sep 2019 19:08:15 +0000 on https://proudpupmedia.com 
+[2019-09-20 19:08:15 : INFO] - WP: 5.2.3 
+[2019-09-20 19:08:15 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-20 19:08:15 : INFO] - MySQL: 5.6.40 
+[2019-09-20 19:08:15 : INFO] - WPLANG: en_CA 
+[2019-09-20 19:08:15 : INFO] - Server: Apache 
+[2019-09-20 19:08:15 : INFO] - Outbound connections: N 
+[2019-09-20 19:08:15 : INFO] - safe_mode: 0 
+[2019-09-20 19:08:15 : INFO] - max_execution_time: 120 
+[2019-09-20 19:08:15 : INFO] - memory_limit: 768M (used: 13M | 14M) 
+[2019-09-20 19:08:15 : INFO] - multisite: N 
+[2019-09-20 19:08:15 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-20 19:08:15 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-09-20 19:08:15 : INFO] - Set semaphore last lock (smush) time to 2019-09-20 19:08:15 
+[2019-09-20 19:08:15 : INFO] - Semaphore lock (smush) complete 
+[2019-09-20 19:08:15 : INFO] - Processing task with ID : 195, and type 'smush' 
+[2019-09-20 19:08:15 : INFO] - Re_Smush_It_Task with attachment ID : 53445, autocreated on : September 20, 2019 07:03:09 
+[2019-09-20 19:08:15 : INFO] - 100 
+[2019-09-20 19:08:17 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/image-optimization-updraft-pre-smush-original.jpg 
+[2019-09-20 19:08:17 : INFO] - Re_Smush_It_Task with attachment ID : 53445, autocreated on : September 20, 2019 07:03:09 
+[2019-09-20 19:08:17 : INFO] - 100 
+[2019-09-20 19:08:18 : INFO] - Re_Smush_It_Task with attachment ID : 53445, autocreated on : September 20, 2019 07:03:09 
+[2019-09-20 19:08:18 : INFO] - 100 
+[2019-09-20 19:08:19 : INFO] - Re_Smush_It_Task with attachment ID : 53445, autocreated on : September 20, 2019 07:03:09 
+[2019-09-20 19:08:19 : INFO] - 100 
+[2019-09-20 19:08:20 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/image-optimization.jpg.The file was compressed from 88.89 KB to 82.79 KB saving 6.86 percent using WP-Optimize 
+[2019-09-20 19:08:20 : INFO] - Completed processing task with ID : 195, and type 'smush' 
+[2019-09-20 19:08:20 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-20 19:08:20 : INFO] - Semaphore (smush) unlocked 
+[2019-09-20 19:08:20 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-09-20 19:08:20 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-09-20 19:08:20 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-09-20 19:17:55 : INFO] - Re_Smush_It_Task with attachment ID : 53448, autocreated on : September 20, 2019 07:17:55 
+[2019-09-20 19:18:29 : INFO] - 
+ 
+[2019-09-20 19:18:29 : INFO] - Header for logs at time:  Fri, 20 Sep 2019 19:18:29 +0000 on https://proudpupmedia.com 
+[2019-09-20 19:18:29 : INFO] - WP: 5.2.3 
+[2019-09-20 19:18:29 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-20 19:18:29 : INFO] - MySQL: 5.6.40 
+[2019-09-20 19:18:29 : INFO] - WPLANG: en_CA 
+[2019-09-20 19:18:29 : INFO] - Server: Apache 
+[2019-09-20 19:18:29 : INFO] - Outbound connections: N 
+[2019-09-20 19:18:29 : INFO] - safe_mode: 0 
+[2019-09-20 19:18:29 : INFO] - max_execution_time: 120 
+[2019-09-20 19:18:29 : INFO] - memory_limit: 768M (used: 13M | 14M) 
+[2019-09-20 19:18:29 : INFO] - multisite: N 
+[2019-09-20 19:18:29 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-20 19:18:29 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-09-20 19:18:29 : INFO] - Set semaphore last lock (smush) time to 2019-09-20 19:18:29 
+[2019-09-20 19:18:29 : INFO] - Semaphore lock (smush) complete 
+[2019-09-20 19:18:29 : INFO] - Processing task with ID : 196, and type 'smush' 
+[2019-09-20 19:18:29 : INFO] - Task with ID 196 and type (smush) failed with error code exceeded_max_filesize - /home/proudpup/public_html/wp-content/uploads/wordpress-image-size-dashboard.mov - cannot be optimized, file size is above service provider limit 
+[2019-09-20 19:18:29 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-20 19:18:29 : INFO] - Semaphore (smush) unlocked 
+[2019-09-20 19:18:29 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-09-20 19:18:29 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-09-20 19:18:29 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-09-20 19:28:53 : INFO] - 
+ 
+[2019-09-20 19:28:53 : INFO] - Header for logs at time:  Fri, 20 Sep 2019 19:28:53 +0000 on https://proudpupmedia.com 
+[2019-09-20 19:28:53 : INFO] - WP: 5.2.3 
+[2019-09-20 19:28:53 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-20 19:28:53 : INFO] - MySQL: 5.6.40 
+[2019-09-20 19:28:53 : INFO] - WPLANG: en_CA 
+[2019-09-20 19:28:53 : INFO] - Server: Apache 
+[2019-09-20 19:28:53 : INFO] - Outbound connections: N 
+[2019-09-20 19:28:53 : INFO] - safe_mode: 0 
+[2019-09-20 19:28:53 : INFO] - max_execution_time: 120 
+[2019-09-20 19:28:53 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-09-20 19:28:53 : INFO] - multisite: N 
+[2019-09-20 19:28:53 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-20 19:28:53 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-09-20 20:18:31 : INFO] - Re_Smush_It_Task with attachment ID : 53482, autocreated on : September 20, 2019 08:18:31 
+[2019-09-20 20:23:43 : INFO] - 
+ 
+[2019-09-20 20:23:43 : INFO] - Header for logs at time:  Fri, 20 Sep 2019 20:23:43 +0000 on https://proudpupmedia.com 
+[2019-09-20 20:23:43 : INFO] - WP: 5.2.3 
+[2019-09-20 20:23:43 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-20 20:23:43 : INFO] - MySQL: 5.6.40 
+[2019-09-20 20:23:43 : INFO] - WPLANG: en_CA 
+[2019-09-20 20:23:43 : INFO] - Server: Apache 
+[2019-09-20 20:23:43 : INFO] - Outbound connections: N 
+[2019-09-20 20:23:43 : INFO] - safe_mode: 0 
+[2019-09-20 20:23:43 : INFO] - max_execution_time: 120 
+[2019-09-20 20:23:43 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-09-20 20:23:43 : INFO] - multisite: N 
+[2019-09-20 20:23:43 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-20 20:23:43 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-09-20 20:23:43 : INFO] - Set semaphore last lock (smush) time to 2019-09-20 20:23:43 
+[2019-09-20 20:23:43 : INFO] - Semaphore lock (smush) complete 
+[2019-09-20 20:23:43 : INFO] - Processing task with ID : 197, and type 'smush' 
+[2019-09-20 20:23:43 : INFO] - Re_Smush_It_Task with attachment ID : 53482, autocreated on : September 20, 2019 08:18:31 
+[2019-09-20 20:23:43 : INFO] - 100 
+[2019-09-20 20:23:48 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/google-my-business-profile-updraft-pre-smush-original.png 
+[2019-09-20 20:23:48 : INFO] - Re_Smush_It_Task with attachment ID : 53482, autocreated on : September 20, 2019 08:18:31 
+[2019-09-20 20:23:48 : INFO] - 100 
+[2019-09-20 20:23:49 : INFO] - Re_Smush_It_Task with attachment ID : 53482, autocreated on : September 20, 2019 08:18:31 
+[2019-09-20 20:23:49 : INFO] - 100 
+[2019-09-20 20:23:49 : INFO] - Re_Smush_It_Task with attachment ID : 53482, autocreated on : September 20, 2019 08:18:31 
+[2019-09-20 20:23:49 : INFO] - 100 
+[2019-09-20 20:24:04 : INFO] - Re_Smush_It_Task with attachment ID : 53482, autocreated on : September 20, 2019 08:18:31 
+[2019-09-20 20:24:04 : INFO] - 100 
+[2019-09-20 20:24:05 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/google-my-business-profile.png.The file was compressed from 498.80 KB to 152.51 KB saving 69.42 percent using WP-Optimize 
+[2019-09-20 20:24:05 : INFO] - Completed processing task with ID : 197, and type 'smush' 
+[2019-09-20 20:24:05 : INFO] - Set semaphore last lock (smush) time to 2019-09-20 20:24:05 
+[2019-09-20 20:24:05 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-20 20:24:05 : INFO] - Semaphore (smush) unlocked 
+[2019-09-20 20:24:05 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-09-20 20:24:05 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-09-20 20:24:05 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-09-20 20:25:08 : INFO] - Re_Smush_It_Task with attachment ID : 53485, autocreated on : September 20, 2019 08:25:08 
+[2019-09-20 20:33:46 : INFO] - 
+ 
+[2019-09-20 20:33:46 : INFO] - Header for logs at time:  Fri, 20 Sep 2019 20:33:46 +0000 on https://proudpupmedia.com 
+[2019-09-20 20:33:46 : INFO] - WP: 5.2.3 
+[2019-09-20 20:33:46 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-20 20:33:46 : INFO] - MySQL: 5.6.40 
+[2019-09-20 20:33:46 : INFO] - WPLANG: en_CA 
+[2019-09-20 20:33:46 : INFO] - Server: Apache 
+[2019-09-20 20:33:46 : INFO] - Outbound connections: N 
+[2019-09-20 20:33:46 : INFO] - safe_mode: 0 
+[2019-09-20 20:33:46 : INFO] - max_execution_time: 120 
+[2019-09-20 20:33:46 : INFO] - memory_limit: 768M (used: 13M | 14M) 
+[2019-09-20 20:33:46 : INFO] - multisite: N 
+[2019-09-20 20:33:46 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-20 20:33:46 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-09-20 20:33:46 : INFO] - Set semaphore last lock (smush) time to 2019-09-20 20:33:46 
+[2019-09-20 20:33:46 : INFO] - Semaphore lock (smush) complete 
+[2019-09-20 20:33:46 : INFO] - Processing task with ID : 198, and type 'smush' 
+[2019-09-20 20:33:46 : INFO] - Re_Smush_It_Task with attachment ID : 53485, autocreated on : September 20, 2019 08:25:08 
+[2019-09-20 20:33:46 : INFO] - 100 
+[2019-09-20 20:33:48 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/google-my-business-profile-updraft-pre-smush-original.png 
+[2019-09-20 20:33:48 : INFO] - Re_Smush_It_Task with attachment ID : 53485, autocreated on : September 20, 2019 08:25:08 
+[2019-09-20 20:33:48 : INFO] - 100 
+[2019-09-20 20:33:49 : INFO] - Re_Smush_It_Task with attachment ID : 53485, autocreated on : September 20, 2019 08:25:08 
+[2019-09-20 20:33:49 : INFO] - 100 
+[2019-09-20 20:33:50 : INFO] - Re_Smush_It_Task with attachment ID : 53485, autocreated on : September 20, 2019 08:25:08 
+[2019-09-20 20:33:50 : INFO] - 100 
+[2019-09-20 20:33:56 : INFO] - Re_Smush_It_Task with attachment ID : 53485, autocreated on : September 20, 2019 08:25:08 
+[2019-09-20 20:33:56 : INFO] - 100 
+[2019-09-20 20:33:58 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/google-my-business-profile.png.The file was compressed from 142.92 KB to 142.92 KB saving 0 percent using WP-Optimize 
+[2019-09-20 20:33:58 : INFO] - Completed processing task with ID : 198, and type 'smush' 
+[2019-09-20 20:33:58 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-20 20:33:58 : INFO] - Semaphore (smush) unlocked 
+[2019-09-20 20:33:58 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-09-20 20:33:58 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-09-20 20:33:58 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-09-20 20:44:04 : INFO] - 
+ 
+[2019-09-20 20:44:04 : INFO] - Header for logs at time:  Fri, 20 Sep 2019 20:44:04 +0000 on https://proudpupmedia.com 
+[2019-09-20 20:44:04 : INFO] - WP: 5.2.3 
+[2019-09-20 20:44:04 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-20 20:44:04 : INFO] - MySQL: 5.6.40 
+[2019-09-20 20:44:04 : INFO] - WPLANG: en_CA 
+[2019-09-20 20:44:04 : INFO] - Server: Apache 
+[2019-09-20 20:44:04 : INFO] - Outbound connections: N 
+[2019-09-20 20:44:04 : INFO] - safe_mode: 0 
+[2019-09-20 20:44:04 : INFO] - max_execution_time: 120 
+[2019-09-20 20:44:04 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-09-20 20:44:04 : INFO] - multisite: N 
+[2019-09-20 20:44:04 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-20 20:44:04 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-09-26 13:02:31 : INFO] - Re_Smush_It_Task with attachment ID : 53510, autocreated on : September 26, 2019 01:02:31 
+[2019-09-26 13:07:47 : INFO] - 
+ 
+[2019-09-26 13:07:47 : INFO] - Header for logs at time:  Thu, 26 Sep 2019 13:07:47 +0000 on https://proudpupmedia.com 
+[2019-09-26 13:07:47 : INFO] - WP: 5.2.3 
+[2019-09-26 13:07:47 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-26 13:07:47 : INFO] - MySQL: 5.6.40 
+[2019-09-26 13:07:47 : INFO] - WPLANG: en_CA 
+[2019-09-26 13:07:47 : INFO] - Server: Apache 
+[2019-09-26 13:07:47 : INFO] - Outbound connections: N 
+[2019-09-26 13:07:47 : INFO] - safe_mode: 0 
+[2019-09-26 13:07:47 : INFO] - max_execution_time: 120 
+[2019-09-26 13:07:47 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-09-26 13:07:47 : INFO] - multisite: N 
+[2019-09-26 13:07:47 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-26 13:07:47 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-09-26 13:07:47 : INFO] - Set semaphore last lock (smush) time to 2019-09-26 13:07:47 
+[2019-09-26 13:07:47 : INFO] - Semaphore lock (smush) complete 
+[2019-09-26 13:07:47 : INFO] - Processing task with ID : 199, and type 'smush' 
+[2019-09-26 13:07:47 : INFO] - Re_Smush_It_Task with attachment ID : 53510, autocreated on : September 26, 2019 01:02:31 
+[2019-09-26 13:07:47 : INFO] - 100 
+[2019-09-26 13:07:50 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/End-of-summer-2019-promo-updraft-pre-smush-original.jpg 
+[2019-09-26 13:07:50 : INFO] - Re_Smush_It_Task with attachment ID : 53510, autocreated on : September 26, 2019 01:02:31 
+[2019-09-26 13:07:50 : INFO] - 100 
+[2019-09-26 13:07:50 : INFO] - Re_Smush_It_Task with attachment ID : 53510, autocreated on : September 26, 2019 01:02:31 
+[2019-09-26 13:07:50 : INFO] - 100 
+[2019-09-26 13:07:51 : INFO] - Re_Smush_It_Task with attachment ID : 53510, autocreated on : September 26, 2019 01:02:31 
+[2019-09-26 13:07:51 : INFO] - 100 
+[2019-09-26 13:07:53 : INFO] - Re_Smush_It_Task with attachment ID : 53510, autocreated on : September 26, 2019 01:02:31 
+[2019-09-26 13:07:53 : INFO] - 100 
+[2019-09-26 13:07:54 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/End-of-summer-2019-promo.jpg.The file was compressed from 75.64 KB to 65.80 KB saving 13.01 percent using WP-Optimize 
+[2019-09-26 13:07:54 : INFO] - Completed processing task with ID : 199, and type 'smush' 
+[2019-09-26 13:07:54 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-26 13:07:54 : INFO] - Semaphore (smush) unlocked 
+[2019-09-26 13:07:54 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-09-26 13:07:54 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-09-26 13:07:54 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-09-26 13:17:47 : INFO] - 
+ 
+[2019-09-26 13:17:47 : INFO] - Header for logs at time:  Thu, 26 Sep 2019 13:17:47 +0000 on https://proudpupmedia.com 
+[2019-09-26 13:17:47 : INFO] - WP: 5.2.3 
+[2019-09-26 13:17:47 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-26 13:17:47 : INFO] - MySQL: 5.6.40 
+[2019-09-26 13:17:47 : INFO] - WPLANG: en_CA 
+[2019-09-26 13:17:47 : INFO] - Server: Apache 
+[2019-09-26 13:17:47 : INFO] - Outbound connections: N 
+[2019-09-26 13:17:47 : INFO] - safe_mode: 0 
+[2019-09-26 13:17:47 : INFO] - max_execution_time: 120 
+[2019-09-26 13:17:47 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-09-26 13:17:47 : INFO] - multisite: N 
+[2019-09-26 13:17:47 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-26 13:17:47 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-09-26 18:14:30 : INFO] - Re_Smush_It_Task with attachment ID : 53520, autocreated on : September 26, 2019 06:14:30 
+[2019-09-26 18:17:29 : INFO] - Re_Smush_It_Task with attachment ID : 53522, autocreated on : September 26, 2019 06:17:29 
+[2019-09-26 18:20:01 : INFO] - 
+ 
+[2019-09-26 18:20:01 : INFO] - Header for logs at time:  Thu, 26 Sep 2019 18:20:01 +0000 on https://proudpupmedia.com 
+[2019-09-26 18:20:01 : INFO] - WP: 5.2.3 
+[2019-09-26 18:20:01 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-26 18:20:01 : INFO] - MySQL: 5.6.40 
+[2019-09-26 18:20:01 : INFO] - WPLANG: en_CA 
+[2019-09-26 18:20:01 : INFO] - Server: Apache 
+[2019-09-26 18:20:01 : INFO] - Outbound connections: N 
+[2019-09-26 18:20:01 : INFO] - safe_mode: 0 
+[2019-09-26 18:20:01 : INFO] - max_execution_time: 120 
+[2019-09-26 18:20:01 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-09-26 18:20:01 : INFO] - multisite: N 
+[2019-09-26 18:20:01 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-26 18:20:01 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2019-09-26 18:20:01 : INFO] - Set semaphore last lock (smush) time to 2019-09-26 18:20:01 
+[2019-09-26 18:20:01 : INFO] - Semaphore lock (smush) complete 
+[2019-09-26 18:20:01 : INFO] - Processing task with ID : 200, and type 'smush' 
+[2019-09-26 18:20:01 : INFO] - Re_Smush_It_Task with attachment ID : 53520, autocreated on : September 26, 2019 06:14:30 
+[2019-09-26 18:20:01 : INFO] - 100 
+[2019-09-26 18:20:03 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/logo-blue-updraft-pre-smush-original.png 
+[2019-09-26 18:20:03 : INFO] - Re_Smush_It_Task with attachment ID : 53520, autocreated on : September 26, 2019 06:14:30 
+[2019-09-26 18:20:03 : INFO] - 100 
+[2019-09-26 18:20:04 : INFO] - Re_Smush_It_Task with attachment ID : 53520, autocreated on : September 26, 2019 06:14:30 
+[2019-09-26 18:20:04 : INFO] - 100 
+[2019-09-26 18:20:05 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/logo-blue.png.The file was compressed from 20.71 KB to 6.85 KB saving 66.94 percent using WP-Optimize 
+[2019-09-26 18:20:05 : INFO] - Completed processing task with ID : 200, and type 'smush' 
+[2019-09-26 18:20:05 : INFO] - Processing task with ID : 201, and type 'smush' 
+[2019-09-26 18:20:05 : INFO] - Re_Smush_It_Task with attachment ID : 53522, autocreated on : September 26, 2019 06:17:29 
+[2019-09-26 18:20:05 : INFO] - 100 
+[2019-09-26 18:20:05 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/logo-white-long-updraft-pre-smush-original.png 
+[2019-09-26 18:20:05 : INFO] - Re_Smush_It_Task with attachment ID : 53522, autocreated on : September 26, 2019 06:17:29 
+[2019-09-26 18:20:05 : INFO] - 100 
+[2019-09-26 18:20:06 : INFO] - Re_Smush_It_Task with attachment ID : 53522, autocreated on : September 26, 2019 06:17:29 
+[2019-09-26 18:20:06 : INFO] - 100 
+[2019-09-26 18:20:07 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/logo-white-long.png.The file was compressed from 16.63 KB to 8.63 KB saving 48.09 percent using WP-Optimize 
+[2019-09-26 18:20:07 : INFO] - Completed processing task with ID : 201, and type 'smush' 
+[2019-09-26 18:20:07 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-26 18:20:07 : INFO] - Semaphore (smush) unlocked 
+[2019-09-26 18:20:07 : INFO] - Successfully processed the queue (smush). 2 tasks were processed out of 2. 
+[2019-09-26 18:20:07 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-09-26 18:20:07 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2019-09-26 18:20:24 : INFO] - Re_Smush_It_Task with attachment ID : 53524, autocreated on : September 26, 2019 06:20:24 
+[2019-09-26 18:25:33 : INFO] - Re_Smush_It_Task with attachment ID : 53527, autocreated on : September 26, 2019 06:25:33 
+[2019-09-26 18:27:37 : INFO] - Re_Smush_It_Task with attachment ID : 53528, autocreated on : September 26, 2019 06:27:37 
+[2019-09-26 18:51:02 : INFO] - 
+ 
+[2019-09-26 18:51:02 : INFO] - Header for logs at time:  Thu, 26 Sep 2019 18:51:02 +0000 on https://proudpupmedia.com 
+[2019-09-26 18:51:02 : INFO] - WP: 5.2.3 
+[2019-09-26 18:51:02 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-26 18:51:02 : INFO] - MySQL: 5.6.40 
+[2019-09-26 18:51:02 : INFO] - WPLANG: en_CA 
+[2019-09-26 18:51:02 : INFO] - Server: Apache 
+[2019-09-26 18:51:02 : INFO] - Outbound connections: N 
+[2019-09-26 18:51:02 : INFO] - safe_mode: 0 
+[2019-09-26 18:51:02 : INFO] - max_execution_time: 120 
+[2019-09-26 18:51:02 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-09-26 18:51:02 : INFO] - multisite: N 
+[2019-09-26 18:51:02 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-26 18:51:02 : INFO] - A total of 3 tasks of type smush found and will be processed in this iteration 
+[2019-09-26 18:51:02 : INFO] - Set semaphore last lock (smush) time to 2019-09-26 18:51:02 
+[2019-09-26 18:51:02 : INFO] - Semaphore lock (smush) complete 
+[2019-09-26 18:51:02 : INFO] - Processing task with ID : 202, and type 'smush' 
+[2019-09-26 18:51:02 : INFO] - Task with ID 202 and type (smush) failed with error code invalid_file_path - The linked attachment ID does not have a valid file path 
+[2019-09-26 18:51:02 : INFO] - Processing task with ID : 203, and type 'smush' 
+[2019-09-26 18:51:02 : INFO] - Re_Smush_It_Task with attachment ID : 53527, autocreated on : September 26, 2019 06:25:33 
+[2019-09-26 18:51:02 : INFO] - 100 
+[2019-09-26 18:51:03 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/site-logo-square-white-updraft-pre-smush-original.png 
+[2019-09-26 18:51:03 : INFO] - Re_Smush_It_Task with attachment ID : 53527, autocreated on : September 26, 2019 06:25:33 
+[2019-09-26 18:51:03 : INFO] - 100 
+[2019-09-26 18:51:04 : INFO] - Re_Smush_It_Task with attachment ID : 53527, autocreated on : September 26, 2019 06:25:33 
+[2019-09-26 18:51:04 : INFO] - 100 
+[2019-09-26 18:51:04 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/site-logo-square-white.png.The file was compressed from 46.35 KB to 16.98 KB saving 63.37 percent using WP-Optimize 
+[2019-09-26 18:51:04 : INFO] - Completed processing task with ID : 203, and type 'smush' 
+[2019-09-26 18:51:04 : INFO] - Processing task with ID : 204, and type 'smush' 
+[2019-09-26 18:51:04 : INFO] - Re_Smush_It_Task with attachment ID : 53528, autocreated on : September 26, 2019 06:27:37 
+[2019-09-26 18:51:04 : INFO] - 100 
+[2019-09-26 18:51:05 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/site-logo-whitesquare-updraft-pre-smush-original.png 
+[2019-09-26 18:51:05 : INFO] - Re_Smush_It_Task with attachment ID : 53528, autocreated on : September 26, 2019 06:27:37 
+[2019-09-26 18:51:05 : INFO] - 100 
+[2019-09-26 18:51:06 : INFO] - Re_Smush_It_Task with attachment ID : 53528, autocreated on : September 26, 2019 06:27:37 
+[2019-09-26 18:51:06 : INFO] - 100 
+[2019-09-26 18:51:07 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/site-logo-whitesquare.png.The file was compressed from 28.15 KB to 12.89 KB saving 54.2 percent using WP-Optimize 
+[2019-09-26 18:51:07 : INFO] - Completed processing task with ID : 204, and type 'smush' 
+[2019-09-26 18:51:07 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-26 18:51:07 : INFO] - Semaphore (smush) unlocked 
+[2019-09-26 18:51:07 : INFO] - Successfully processed the queue (smush). 3 tasks were processed out of 3. 
+[2019-09-26 18:51:07 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-09-26 18:51:07 : INFO] - Cleaning up tasks of type (smush). A total of 3 tasks will be deleted. 
+[2019-09-26 19:09:13 : INFO] - 
+ 
+[2019-09-26 19:09:13 : INFO] - Header for logs at time:  Thu, 26 Sep 2019 19:09:13 +0000 on https://proudpupmedia.com 
+[2019-09-26 19:09:13 : INFO] - WP: 5.2.3 
+[2019-09-26 19:09:13 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-26 19:09:13 : INFO] - MySQL: 5.6.40 
+[2019-09-26 19:09:13 : INFO] - WPLANG: en_CA 
+[2019-09-26 19:09:13 : INFO] - Server: Apache 
+[2019-09-26 19:09:13 : INFO] - Outbound connections: N 
+[2019-09-26 19:09:13 : INFO] - safe_mode: 0 
+[2019-09-26 19:09:13 : INFO] - max_execution_time: 120 
+[2019-09-26 19:09:13 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-09-26 19:09:13 : INFO] - multisite: N 
+[2019-09-26 19:09:13 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-26 19:09:13 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-09-27 12:51:17 : INFO] - Re_Smush_It_Task with attachment ID : 53535, autocreated on : September 27, 2019 12:51:17 
+[2019-09-27 12:56:34 : INFO] - 
+ 
+[2019-09-27 12:56:34 : INFO] - Header for logs at time:  Fri, 27 Sep 2019 12:56:34 +0000 on https://proudpupmedia.com 
+[2019-09-27 12:56:34 : INFO] - WP: 5.2.3 
+[2019-09-27 12:56:34 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-27 12:56:34 : INFO] - MySQL: 5.6.40 
+[2019-09-27 12:56:34 : INFO] - WPLANG: en_CA 
+[2019-09-27 12:56:34 : INFO] - Server: Apache 
+[2019-09-27 12:56:34 : INFO] - Outbound connections: N 
+[2019-09-27 12:56:34 : INFO] - safe_mode: 0 
+[2019-09-27 12:56:34 : INFO] - max_execution_time: 120 
+[2019-09-27 12:56:34 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-09-27 12:56:34 : INFO] - multisite: N 
+[2019-09-27 12:56:34 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-27 12:56:34 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-09-27 12:56:34 : INFO] - Set semaphore last lock (smush) time to 2019-09-27 12:56:34 
+[2019-09-27 12:56:34 : INFO] - Semaphore lock (smush) complete 
+[2019-09-27 12:56:34 : INFO] - Processing task with ID : 205, and type 'smush' 
+[2019-09-27 12:56:34 : INFO] - Re_Smush_It_Task with attachment ID : 53535, autocreated on : September 27, 2019 12:51:17 
+[2019-09-27 12:56:34 : INFO] - 100 
+[2019-09-27 12:56:39 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/website-security-updraft-pre-smush-original.png 
+[2019-09-27 12:56:39 : INFO] - Re_Smush_It_Task with attachment ID : 53535, autocreated on : September 27, 2019 12:51:17 
+[2019-09-27 12:56:39 : INFO] - 100 
+[2019-09-27 12:56:40 : INFO] - Re_Smush_It_Task with attachment ID : 53535, autocreated on : September 27, 2019 12:51:17 
+[2019-09-27 12:56:40 : INFO] - 100 
+[2019-09-27 12:56:41 : INFO] - Re_Smush_It_Task with attachment ID : 53535, autocreated on : September 27, 2019 12:51:17 
+[2019-09-27 12:56:41 : INFO] - 100 
+[2019-09-27 12:56:43 : INFO] - Re_Smush_It_Task with attachment ID : 53535, autocreated on : September 27, 2019 12:51:17 
+[2019-09-27 12:56:43 : INFO] - 100 
+[2019-09-27 12:56:45 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/website-security.png.The file was compressed from 898.87 KB to 241.59 KB saving 73.12 percent using WP-Optimize 
+[2019-09-27 12:56:45 : INFO] - Completed processing task with ID : 205, and type 'smush' 
+[2019-09-27 12:56:45 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-27 12:56:45 : INFO] - Semaphore (smush) unlocked 
+[2019-09-27 12:56:45 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-09-27 12:56:45 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-09-27 12:56:45 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-09-27 13:06:36 : INFO] - 
+ 
+[2019-09-27 13:06:36 : INFO] - Header for logs at time:  Fri, 27 Sep 2019 13:06:36 +0000 on https://proudpupmedia.com 
+[2019-09-27 13:06:36 : INFO] - WP: 5.2.3 
+[2019-09-27 13:06:36 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-09-27 13:06:36 : INFO] - MySQL: 5.6.40 
+[2019-09-27 13:06:36 : INFO] - WPLANG: en_CA 
+[2019-09-27 13:06:36 : INFO] - Server: Apache 
+[2019-09-27 13:06:36 : INFO] - Outbound connections: N 
+[2019-09-27 13:06:36 : INFO] - safe_mode: 0 
+[2019-09-27 13:06:36 : INFO] - max_execution_time: 120 
+[2019-09-27 13:06:36 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-09-27 13:06:36 : INFO] - multisite: N 
+[2019-09-27 13:06:36 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-09-27 13:06:36 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-10-03 20:56:55 : INFO] - Re_Smush_It_Task with attachment ID : 53590, autocreated on : October 03, 2019 08:56:55 
+[2019-10-03 21:00:39 : INFO] - Re_Smush_It_Task with attachment ID : 53593, autocreated on : October 03, 2019 09:00:39 
+[2019-10-03 21:00:40 : INFO] - Re_Smush_It_Task with attachment ID : 53594, autocreated on : October 03, 2019 09:00:40 
+[2019-10-03 21:00:41 : INFO] - Re_Smush_It_Task with attachment ID : 53595, autocreated on : October 03, 2019 09:00:41 
+[2019-10-03 21:00:42 : INFO] - Re_Smush_It_Task with attachment ID : 53596, autocreated on : October 03, 2019 09:00:42 
+[2019-10-03 21:00:43 : INFO] - Re_Smush_It_Task with attachment ID : 53597, autocreated on : October 03, 2019 09:00:43 
+[2019-10-03 21:02:07 : INFO] - 
+ 
+[2019-10-03 21:02:07 : INFO] - Header for logs at time:  Thu, 03 Oct 2019 21:02:07 +0000 on https://proudpupmedia.com 
+[2019-10-03 21:02:07 : INFO] - WP: 5.2.3 
+[2019-10-03 21:02:07 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-10-03 21:02:07 : INFO] - MySQL: 5.6.40 
+[2019-10-03 21:02:07 : INFO] - WPLANG: en_CA 
+[2019-10-03 21:02:07 : INFO] - Server: Apache 
+[2019-10-03 21:02:07 : INFO] - Outbound connections: N 
+[2019-10-03 21:02:07 : INFO] - safe_mode: 0 
+[2019-10-03 21:02:07 : INFO] - max_execution_time: 120 
+[2019-10-03 21:02:07 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-10-03 21:02:07 : INFO] - multisite: N 
+[2019-10-03 21:02:07 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-10-03 21:02:07 : INFO] - A total of 6 tasks of type smush found and will be processed in this iteration 
+[2019-10-03 21:02:07 : INFO] - Set semaphore last lock (smush) time to 2019-10-03 21:02:07 
+[2019-10-03 21:02:07 : INFO] - Semaphore lock (smush) complete 
+[2019-10-03 21:02:07 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2019-10-03 21:02:07 : INFO] - Re_Smush_It_Task with attachment ID : 53590, autocreated on : October 03, 2019 08:56:55 
+[2019-10-03 21:02:07 : INFO] - 100 
+[2019-10-03 21:02:10 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/background-Fallback-404.1-updraft-pre-smush-original.jpg 
+[2019-10-03 21:02:10 : INFO] - Re_Smush_It_Task with attachment ID : 53590, autocreated on : October 03, 2019 08:56:55 
+[2019-10-03 21:02:10 : INFO] - 100 
+[2019-10-03 21:02:11 : INFO] - Re_Smush_It_Task with attachment ID : 53590, autocreated on : October 03, 2019 08:56:55 
+[2019-10-03 21:02:11 : INFO] - 100 
+[2019-10-03 21:02:11 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/background-Fallback-404.1.jpg.The file was compressed from 14.58 KB to 14.58 KB saving 0 percent using WP-Optimize 
+[2019-10-03 21:02:11 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2019-10-03 21:02:11 : INFO] - Processing task with ID : 2, and type 'smush' 
+[2019-10-03 21:02:11 : INFO] - Re_Smush_It_Task with attachment ID : 53593, autocreated on : October 03, 2019 09:00:39 
+[2019-10-03 21:02:11 : INFO] - 100 
+[2019-10-03 21:02:12 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/Oval-updraft-pre-smush-original.png 
+[2019-10-03 21:02:12 : INFO] - Re_Smush_It_Task with attachment ID : 53593, autocreated on : October 03, 2019 09:00:39 
+[2019-10-03 21:02:12 : INFO] - 100 
+[2019-10-03 21:02:13 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/Oval.png.The file was compressed from 7.38 KB to 6.33 KB saving 14.28 percent using WP-Optimize 
+[2019-10-03 21:02:13 : INFO] - Completed processing task with ID : 2, and type 'smush' 
+[2019-10-03 21:02:13 : INFO] - Processing task with ID : 3, and type 'smush' 
+[2019-10-03 21:02:13 : INFO] - Re_Smush_It_Task with attachment ID : 53594, autocreated on : October 03, 2019 09:00:40 
+[2019-10-03 21:02:13 : INFO] - 100 
+[2019-10-03 21:02:13 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/Fill-1-updraft-pre-smush-original.png 
+[2019-10-03 21:02:13 : INFO] - Re_Smush_It_Task with attachment ID : 53594, autocreated on : October 03, 2019 09:00:40 
+[2019-10-03 21:02:13 : INFO] - 100 
+[2019-10-03 21:02:14 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/Fill-1.png.The file was compressed from 11.54 KB to 9.01 KB saving 21.89 percent using WP-Optimize 
+[2019-10-03 21:02:14 : INFO] - Completed processing task with ID : 3, and type 'smush' 
+[2019-10-03 21:02:14 : INFO] - Processing task with ID : 4, and type 'smush' 
+[2019-10-03 21:02:14 : INFO] - Re_Smush_It_Task with attachment ID : 53595, autocreated on : October 03, 2019 09:00:41 
+[2019-10-03 21:02:14 : INFO] - 100 
+[2019-10-03 21:02:15 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/Oval-Copy-updraft-pre-smush-original.png 
+[2019-10-03 21:02:15 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/Oval-Copy.png.The file was compressed from 3.13 KB to 2.97 KB saving 5.06 percent using WP-Optimize 
+[2019-10-03 21:02:15 : INFO] - Completed processing task with ID : 4, and type 'smush' 
+[2019-10-03 21:02:15 : INFO] - Processing task with ID : 5, and type 'smush' 
+[2019-10-03 21:02:15 : INFO] - Re_Smush_It_Task with attachment ID : 53596, autocreated on : October 03, 2019 09:00:42 
+[2019-10-03 21:02:15 : INFO] - 100 
+[2019-10-03 21:02:16 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/Shape-updraft-pre-smush-original.png 
+[2019-10-03 21:02:16 : INFO] - Re_Smush_It_Task with attachment ID : 53596, autocreated on : October 03, 2019 09:00:42 
+[2019-10-03 21:02:16 : INFO] - 100 
+[2019-10-03 21:02:17 : INFO] - Re_Smush_It_Task with attachment ID : 53596, autocreated on : October 03, 2019 09:00:42 
+[2019-10-03 21:02:17 : INFO] - 100 
+[2019-10-03 21:02:17 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/Shape.png.The file was compressed from 164.01 KB to 43.75 KB saving 73.33 percent using WP-Optimize 
+[2019-10-03 21:02:17 : INFO] - Completed processing task with ID : 5, and type 'smush' 
+[2019-10-03 21:02:17 : INFO] - Processing task with ID : 6, and type 'smush' 
+[2019-10-03 21:02:17 : INFO] - Re_Smush_It_Task with attachment ID : 53597, autocreated on : October 03, 2019 09:00:43 
+[2019-10-03 21:02:17 : INFO] - 100 
+[2019-10-03 21:02:18 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/404-updraft-pre-smush-original.png 
+[2019-10-03 21:02:18 : INFO] - Re_Smush_It_Task with attachment ID : 53597, autocreated on : October 03, 2019 09:00:43 
+[2019-10-03 21:02:18 : INFO] - 100 
+[2019-10-03 21:02:19 : INFO] - Re_Smush_It_Task with attachment ID : 53597, autocreated on : October 03, 2019 09:00:43 
+[2019-10-03 21:02:19 : INFO] - 100 
+[2019-10-03 21:02:20 : INFO] - Re_Smush_It_Task with attachment ID : 53597, autocreated on : October 03, 2019 09:00:43 
+[2019-10-03 21:02:20 : INFO] - 100 
+[2019-10-03 21:02:20 : INFO] - Re_Smush_It_Task with attachment ID : 53597, autocreated on : October 03, 2019 09:00:43 
+[2019-10-03 21:02:20 : INFO] - 100 
+[2019-10-03 21:02:22 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/404.png.The file was compressed from 16.36 KB to 6.99 KB saving 57.26 percent using WP-Optimize 
+[2019-10-03 21:02:22 : INFO] - Completed processing task with ID : 6, and type 'smush' 
+[2019-10-03 21:02:22 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-10-03 21:02:22 : INFO] - Semaphore (smush) unlocked 
+[2019-10-03 21:02:22 : INFO] - Successfully processed the queue (smush). 6 tasks were processed out of 6. 
+[2019-10-03 21:02:22 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-10-03 21:02:22 : INFO] - Cleaning up tasks of type (smush). A total of 6 tasks will be deleted. 
+[2019-10-03 21:54:30 : INFO] - 
+ 
+[2019-10-03 21:54:30 : INFO] - Header for logs at time:  Thu, 03 Oct 2019 21:54:30 +0000 on https://proudpupmedia.com 
+[2019-10-03 21:54:30 : INFO] - WP: 5.2.3 
+[2019-10-03 21:54:30 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-10-03 21:54:30 : INFO] - MySQL: 5.6.40 
+[2019-10-03 21:54:30 : INFO] - WPLANG: en_CA 
+[2019-10-03 21:54:30 : INFO] - Server: Apache 
+[2019-10-03 21:54:30 : INFO] - Outbound connections: N 
+[2019-10-03 21:54:30 : INFO] - safe_mode: 0 
+[2019-10-03 21:54:30 : INFO] - max_execution_time: 120 
+[2019-10-03 21:54:30 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-10-03 21:54:30 : INFO] - multisite: N 
+[2019-10-03 21:54:30 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-10-03 21:54:30 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-10-24 00:20:15 : INFO] - Re_Smush_It_Task with attachment ID : 53621, autocreated on : October 24, 2019 12:20:15 
+[2019-10-24 00:25:16 : INFO] - 
+ 
+[2019-10-24 00:25:16 : INFO] - Header for logs at time:  Thu, 24 Oct 2019 00:25:16 +0000 on https://proudpupmedia.com 
+[2019-10-24 00:25:16 : INFO] - WP: 5.2.4 
+[2019-10-24 00:25:16 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-10-24 00:25:16 : INFO] - MySQL: 5.6.40 
+[2019-10-24 00:25:16 : INFO] - WPLANG: en_CA 
+[2019-10-24 00:25:16 : INFO] - Server: Apache 
+[2019-10-24 00:25:16 : INFO] - Outbound connections: N 
+[2019-10-24 00:25:16 : INFO] - safe_mode: 0 
+[2019-10-24 00:25:16 : INFO] - max_execution_time: 120 
+[2019-10-24 00:25:16 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-10-24 00:25:16 : INFO] - multisite: N 
+[2019-10-24 00:25:16 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-10-24 00:25:16 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-10-24 00:25:16 : INFO] - Set semaphore last lock (smush) time to 2019-10-24 00:25:16 
+[2019-10-24 00:25:16 : INFO] - Semaphore lock (smush) complete 
+[2019-10-24 00:25:16 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2019-10-24 00:25:16 : INFO] - Re_Smush_It_Task with attachment ID : 53621, autocreated on : October 24, 2019 12:20:15 
+[2019-10-24 00:25:16 : INFO] - 100 
+[2019-10-24 00:25:18 : INFO] - Backing up the original image - /home/proudpup/public_html/wp-content/uploads/Trending-Topics-Social-Media-updraft-pre-smush-original.jpg 
+[2019-10-24 00:25:18 : INFO] - Re_Smush_It_Task with attachment ID : 53621, autocreated on : October 24, 2019 12:20:15 
+[2019-10-24 00:25:18 : INFO] - 100 
+[2019-10-24 00:25:19 : INFO] - Re_Smush_It_Task with attachment ID : 53621, autocreated on : October 24, 2019 12:20:15 
+[2019-10-24 00:25:19 : INFO] - 100 
+[2019-10-24 00:25:19 : INFO] - Successfully optimized the image - /home/proudpup/public_html/wp-content/uploads/Trending-Topics-Social-Media.jpg.The file was compressed from 22.91 KB to 21.77 KB saving 4.99 percent using WP-Optimize 
+[2019-10-24 00:25:19 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2019-10-24 00:25:19 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-10-24 00:25:19 : INFO] - Semaphore (smush) unlocked 
+[2019-10-24 00:25:19 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-10-24 00:25:19 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-10-24 00:25:19 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-10-24 00:35:20 : INFO] - 
+ 
+[2019-10-24 00:35:20 : INFO] - Header for logs at time:  Thu, 24 Oct 2019 00:35:20 +0000 on https://proudpupmedia.com 
+[2019-10-24 00:35:20 : INFO] - WP: 5.2.4 
+[2019-10-24 00:35:20 : INFO] - PHP: 7.1.30 (cgi-fcgi, Linux giow16.siteground.us 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-10-24 00:35:20 : INFO] - MySQL: 5.6.40 
+[2019-10-24 00:35:20 : INFO] - WPLANG: en_CA 
+[2019-10-24 00:35:20 : INFO] - Server: Apache 
+[2019-10-24 00:35:20 : INFO] - Outbound connections: N 
+[2019-10-24 00:35:20 : INFO] - safe_mode: 0 
+[2019-10-24 00:35:20 : INFO] - max_execution_time: 120 
+[2019-10-24 00:35:20 : INFO] - memory_limit: 768M (used: 13.1M | 14M) 
+[2019-10-24 00:35:20 : INFO] - multisite: N 
+[2019-10-24 00:35:20 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-10-24 00:35:20 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-12-18 19:30:56 : INFO] - Re_Smush_It_Task with attachment ID : 53647, autocreated on : December 18, 2019 07:30:56 
+[2019-12-18 19:37:31 : INFO] - 
+ 
+[2019-12-18 19:37:31 : INFO] - Header for logs at time:  Wed, 18 Dec 2019 19:37:31 +0000 on https://proudpupmedia.com 
+[2019-12-18 19:37:31 : INFO] - WP: 5.3.1 
+[2019-12-18 19:37:31 : INFO] - PHP: 7.1.33 (cgi-fcgi, Linux giowm6.siteground.biz 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-12-18 19:37:31 : INFO] - MySQL: 5.6.40 
+[2019-12-18 19:37:31 : INFO] - WPLANG: en_CA 
+[2019-12-18 19:37:31 : INFO] - Server: Apache 
+[2019-12-18 19:37:31 : INFO] - Outbound connections: N 
+[2019-12-18 19:37:31 : INFO] - safe_mode: 0 
+[2019-12-18 19:37:31 : INFO] - max_execution_time: 120 
+[2019-12-18 19:37:31 : INFO] - memory_limit: 768M (used: 13.6M | 16M) 
+[2019-12-18 19:37:31 : INFO] - multisite: N 
+[2019-12-18 19:37:31 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-12-18 19:37:31 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-12-18 19:37:31 : INFO] - Set semaphore last lock (smush) time to 2019-12-18 19:37:31 
+[2019-12-18 19:37:31 : INFO] - Semaphore lock (smush) complete 
+[2019-12-18 19:37:31 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2019-12-18 19:37:31 : INFO] - Re_Smush_It_Task with attachment ID : 53647, autocreated on : December 18, 2019 07:30:56 
+[2019-12-18 19:37:31 : INFO] - 100 
+[2019-12-18 19:37:35 : INFO] - Backing up the original image - 2019/12/logo-long-blue-updraft-pre-smush-original.jpg 
+[2019-12-18 19:37:35 : INFO] - Re_Smush_It_Task with attachment ID : 53647, autocreated on : December 18, 2019 07:30:56 
+[2019-12-18 19:37:35 : INFO] - 100 
+[2019-12-18 19:37:35 : INFO] - Re_Smush_It_Task with attachment ID : 53647, autocreated on : December 18, 2019 07:30:56 
+[2019-12-18 19:37:35 : INFO] - 100 
+[2019-12-18 19:37:36 : INFO] - Successfully optimized the image - /home/momparad/public_html/proudpupmedia.com/wp-content/uploads/2019/12/logo-long-blue.jpg.The file was compressed from 17.68 KB to 15.52 KB saving 12.19 percent using WP-Optimize 
+[2019-12-18 19:37:36 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2019-12-18 19:37:36 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-12-18 19:37:36 : INFO] - Semaphore (smush) unlocked 
+[2019-12-18 19:37:36 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-12-18 19:37:36 : INFO] - Semaphore (smush, wp_dvfrxw836y_options) was successfully cleaned up 
+[2019-12-18 19:37:36 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-12-18 19:47:42 : INFO] - 
+ 
+[2019-12-18 19:47:42 : INFO] - Header for logs at time:  Wed, 18 Dec 2019 19:47:42 +0000 on https://proudpupmedia.com 
+[2019-12-18 19:47:42 : INFO] - WP: 5.3.1 
+[2019-12-18 19:47:42 : INFO] - PHP: 7.1.33 (cgi-fcgi, Linux giowm6.siteground.biz 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) 
+[2019-12-18 19:47:42 : INFO] - MySQL: 5.6.40 
+[2019-12-18 19:47:42 : INFO] - WPLANG: en_CA 
+[2019-12-18 19:47:42 : INFO] - Server: Apache 
+[2019-12-18 19:47:42 : INFO] - Outbound connections: N 
+[2019-12-18 19:47:42 : INFO] - safe_mode: 0 
+[2019-12-18 19:47:42 : INFO] - max_execution_time: 120 
+[2019-12-18 19:47:42 : INFO] - memory_limit: 768M (used: 13.6M | 16M) 
+[2019-12-18 19:47:42 : INFO] - multisite: N 
+[2019-12-18 19:47:42 : INFO] - openssl: OpenSSL 1.0.2r  26 Feb 2019 
+[2019-12-18 19:47:42 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 

@@ -1,0 +1,607 @@
+0000.000 (0) Opened log file at time: Mon, 24 Feb 2020 05:10:53 +0000 on https://proudpupmedia.com
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.21 WP: 5.3.2 PHP: 7.1.33 (cgi-fcgi, Linux giowm6.siteground.biz 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) MySQL: 5.6.40-84.0-log WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 14M | 16M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.017 (0) Free space on disk containing Updraft's temporary directory: 683841.8 MB
+0000.021 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.022 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.026 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1582432046, seconds_ago=89007)
+0000.028 (0) Set semaphore last lock (fd) time to 2020-02-24 05:10:53
+0000.028 (0) Semaphore lock (fd) complete
+0000.032 (0) Backup run: resumption=0, nonce=ea81657ca2e9, file_nonce=ea81657ca2e9 begun at=1582521053 (0s ago), job type=backup
+0000.033 (0) Scheduling a resumption (1) after 300 seconds (1582521353) in case this run gets aborted
+0000.042 (0) Checking if we have a zip executable available
+0000.044 (0) Testing: /usr/bin/zip
+0000.051 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.053 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.053 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.054 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.054 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.061 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.062 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.070 (0) Working binary zip found: /usr/bin/zip
+0000.071 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.071 (0) Creation of backups of directories: beginning
+0000.074 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.903 (0) Total entities for the zip file: 1076 directories, 4931 files (0 skipped as non-modified), 76.7 MB
+0000.905 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.908 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.914 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.917 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.921 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.923 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 4931 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.461 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: size is now: 1.40 MB
+0001.464 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 600 files added (on-disk size: 1469.7 KB)
+0001.467 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 700 files added (on-disk size: 1469.7 KB)
+0001.470 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 800 files added (on-disk size: 1469.7 KB)
+0001.472 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 900 files added (on-disk size: 1469.7 KB)
+0001.474 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 1000 files added (on-disk size: 1469.7 KB)
+0001.474 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 4931 files batched, 501 (1002) added so far); re-opening (prior size: 1469.7 KB)
+0001.854 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: size is now: 2.10 MB
+0001.858 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 1100 files added (on-disk size: 2193.6 KB)
+0001.861 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 1200 files added (on-disk size: 2193.6 KB)
+0001.864 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 1300 files added (on-disk size: 2193.6 KB)
+0001.866 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 1400 files added (on-disk size: 2193.6 KB)
+0001.869 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 1500 files added (on-disk size: 2193.6 KB)
+0001.869 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 MB, 4931 files batched, 501 (1503) added so far); re-opening (prior size: 2193.6 KB)
+0002.563 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: size is now: 4.80 MB
+0002.566 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 1600 files added (on-disk size: 4960.8 KB)
+0002.569 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 1700 files added (on-disk size: 4960.8 KB)
+0002.571 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 1800 files added (on-disk size: 4960.8 KB)
+0002.573 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 1900 files added (on-disk size: 4960.8 KB)
+0002.575 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 2000 files added (on-disk size: 4960.8 KB)
+0002.575 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.2 MB, 4931 files batched, 501 (2004) added so far); re-opening (prior size: 4960.8 KB)
+0003.774 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: size is now: 9.80 MB
+0003.777 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 2100 files added (on-disk size: 10021.5 KB)
+0003.779 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 2200 files added (on-disk size: 10021.5 KB)
+0003.781 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 2300 files added (on-disk size: 10021.5 KB)
+0003.783 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 2400 files added (on-disk size: 10021.5 KB)
+0003.785 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 2500 files added (on-disk size: 10021.5 KB)
+0003.786 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.5 MB, 4931 files batched, 501 (2505) added so far); re-opening (prior size: 10021.5 KB)
+0004.460 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: size is now: 14.50 MB
+0004.462 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 2600 files added (on-disk size: 14829.8 KB)
+0004.464 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 2700 files added (on-disk size: 14829.8 KB)
+0004.466 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 2800 files added (on-disk size: 14829.8 KB)
+0004.468 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 2900 files added (on-disk size: 14829.8 KB)
+0004.469 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 3000 files added (on-disk size: 14829.8 KB)
+0004.470 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16 MB, 4931 files batched, 501 (3006) added so far); re-opening (prior size: 14829.8 KB)
+0005.729 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: size is now: 19.20 MB
+0005.732 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 3100 files added (on-disk size: 19617.8 KB)
+0005.734 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 3200 files added (on-disk size: 19617.8 KB)
+0005.736 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 3300 files added (on-disk size: 19617.8 KB)
+0005.738 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 3400 files added (on-disk size: 19617.8 KB)
+0005.739 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 3500 files added (on-disk size: 19617.8 KB)
+0005.740 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 4931 files batched, 501 (3507) added so far); re-opening (prior size: 19617.8 KB)
+0006.241 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 3600 files added (on-disk size: 20435.2 KB)
+0006.244 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 3700 files added (on-disk size: 20435.2 KB)
+0006.246 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 3800 files added (on-disk size: 20435.2 KB)
+0006.248 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 3900 files added (on-disk size: 20435.2 KB)
+0006.251 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 4000 files added (on-disk size: 20435.2 KB)
+0006.252 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 4931 files batched, 501 (4008) added so far); re-opening (prior size: 20435.2 KB)
+0006.801 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 4100 files added (on-disk size: 21564.6 KB)
+0006.803 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 4200 files added (on-disk size: 21564.6 KB)
+0006.806 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 4300 files added (on-disk size: 21564.6 KB)
+0006.808 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 4400 files added (on-disk size: 21564.6 KB)
+0006.809 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 4500 files added (on-disk size: 21564.6 KB)
+0006.811 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.5 MB, 4931 files batched, 501 (4509) added so far); re-opening (prior size: 21564.6 KB)
+0007.575 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 4600 files added (on-disk size: 25072.2 KB)
+0007.578 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 4700 files added (on-disk size: 25072.2 KB)
+0007.580 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 4800 files added (on-disk size: 25072.2 KB)
+0007.582 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip.tmp: 4900 files added (on-disk size: 25072.2 KB)
+0008.535 (0) Created plugins zip (0) - 27160.4 KB in 8.5 s (3213.5 KB/s) (sha1: b2187e8cc89e90ee685e55b0e70a775a170a2612, sha256: cf4ebb7435cd03c49f84d56beb2e5a14f7bcf3bcefff7a4fc04df8ca7d5dfc32)
+0008.537 (0) Beginning creation of dump of themes (split every: 400 MB)
+0008.568 (0) Total entities for the zip file: 23 directories, 115 files (0 skipped as non-modified), 1.8 MB
+0008.571 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.716 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-themes.zip.tmp: size is now: 1.30 MB
+0008.737 (0) Created themes zip (0) - 1325.9 KB in 0.2 s (7029 KB/s) (sha1: 22b4b3ffe2b8199de3335027921ba7acb478efae, sha256: af21c8bd42298183d2299e6b34fbf92b86274459e2a843cb6fff1ec719680840)
+0008.739 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.739 (0) Looking for candidates to backup in: /home/momparad/public_html/proudpupmedia.com/wp-content/uploads
+0008.741 (0) finding files: Shape-150x150.png: adding to list (1)
+0008.742 (0) finding files: image-optimization-updraft-pre-smush-original.jpg: adding to list (2)
+0008.743 (0) finding files: End-of-summer-2019-promo-300x300.jpg: adding to list (3)
+0008.743 (0) finding files: logo-white-long-300x86.png: adding to list (4)
+0008.743 (0) finding files: website-security-300x300.png: adding to list (5)
+0008.744 (0) finding files: find-media-settings-screen-1024x896.png: adding to list (6)
+0008.744 (0) finding files: background-Fallback-404.1.jpg: adding to list (7)
+0008.745 (0) finding files: logo-blue.png: adding to list (8)
+0008.745 (0) finding files: google-my-business-profile-768x2458.png: adding to list (9)
+0008.746 (0) finding files: 404-768x277.png: adding to list (10)
+0008.746 (0) finding files: Trending-Topics-Social-Media-updraft-pre-smush-original.jpg: adding to list (11)
+0008.747 (0) finding files: 404-300x108.png: adding to list (12)
+0008.747 (0) finding files: 404-1600x578.png: adding to list (13)
+0008.747 (0) finding files: End-of-summer-2019-promo-150x150.jpg: adding to list (14)
+0008.748 (0) finding files: elementor: adding to list (15)
+0008.748 (0) finding files: 2020: adding to list (16)
+0008.749 (0) finding files: End-of-summer-2019-promo-768x768.jpg: adding to list (17)
+0008.749 (0) finding files: sucuri: adding to list (18)
+0008.750 (0) finding files: site-logo-square-white-300x213.png: adding to list (19)
+0008.750 (0) finding files: logo-white-long-updraft-pre-smush-original.png: adding to list (20)
+0008.751 (0) finding files: End-of-summer-2019-promo-1024x1024.jpg: adding to list (21)
+0008.751 (0) finding files: Oval.png: adding to list (22)
+0008.752 (0) finding files: find-media-settings-screen.png: adding to list (23)
+0008.752 (0) finding files: cache: adding to list (24)
+0008.752 (0) finding files: background-Fallback-404.1-updraft-pre-smush-original.jpg: adding to list (25)
+0008.753 (0) finding files: image-optimization.jpg: adding to list (26)
+0008.753 (0) finding files: site-logo-whitesquare.png: adding to list (27)
+0008.754 (0) finding files: site-logo-square-white-updraft-pre-smush-original.png: adding to list (28)
+0008.754 (0) finding files: site-logo-whitesquare-updraft-pre-smush-original.png: adding to list (29)
+0008.755 (0) finding files: Oval-Copy.png: adding to list (30)
+0008.755 (0) finding files: background-Fallback-404.1-150x150.jpg: adding to list (31)
+0008.756 (0) finding files: Fill-1-updraft-pre-smush-original.png: adding to list (32)
+0008.756 (0) finding files: End-of-summer-2019-promo.jpg: adding to list (33)
+0008.757 (0) finding files: 404-updraft-pre-smush-original.png: adding to list (34)
+0008.757 (0) finding files: website-security-updraft-pre-smush-original.png: adding to list (35)
+0008.758 (0) finding files: background-Fallback-404.1-188x300.jpg: adding to list (36)
+0008.758 (0) finding files: find-media-settings-screen-768x672.png: adding to list (37)
+0008.759 (0) finding files: website-security-1029x1024.png: adding to list (38)
+0008.759 (0) finding files: 404.png: adding to list (39)
+0008.760 (0) finding files: logo-white-long-150x150.png: adding to list (40)
+0008.760 (0) finding files: site-logo-square-white.png: adding to list (41)
+0008.761 (0) finding files: Fill-1.png: adding to list (42)
+0008.762 (0) finding files: 2019: adding to list (43)
+0008.762 (0) finding files: Trending-Topics-Social-Media-150x150.jpg: adding to list (44)
+0008.762 (0) finding files: google-my-business-profile-320x1024.png: adding to list (45)
+0008.763 (0) finding files: logo-white-long.png: adding to list (46)
+0008.763 (0) finding files: find-media-settings-screen-150x150.png: adding to list (47)
+0008.764 (0) finding files: image-optimization-768x402.jpg: adding to list (48)
+0008.764 (0) finding files: wordpress-image-size-dashboard.mov: adding to list (49)
+0008.764 (0) finding files: wph: adding to list (50)
+0008.765 (0) finding files: google-my-business-profile-150x150.png: adding to list (51)
+0008.765 (0) finding files: Trending-Topics-Social-Media.jpg: adding to list (52)
+0008.765 (0) finding files: google-my-business-profile-updraft-pre-smush-original.png: adding to list (53)
+0008.765 (0) finding files: site-logo-whitesquare-150x150.png: adding to list (54)
+0008.765 (0) finding files: smush-159d01103fb4cdd59e58.log: adding to list (55)
+0008.765 (0) finding files: Fill-1-150x150.png: adding to list (56)
+0008.765 (0) finding files: Shape-300x275.png: adding to list (57)
+0008.765 (0) finding files: website-security-768x764.png: adding to list (58)
+0008.765 (0) finding files: End-of-summer-2019-promo-updraft-pre-smush-original.jpg: adding to list (59)
+0008.765 (0) finding files: Oval-updraft-pre-smush-original.png: adding to list (60)
+0008.765 (0) finding files: google-my-business-profile-94x300.png: adding to list (61)
+0008.765 (0) finding files: 2018: adding to list (62)
+0008.765 (0) finding files: Oval-Copy-updraft-pre-smush-original.png: adding to list (63)
+0008.765 (0) finding files: logo-blue-updraft-pre-smush-original.png: adding to list (64)
+0008.765 (0) finding files: find-media-settings-screen-300x263.png: adding to list (65)
+0008.765 (0) finding files: Oval-150x140.png: adding to list (66)
+0008.765 (0) finding files: site-logo-square-white-150x150.png: adding to list (67)
+0008.765 (0) finding files: essential-addons-elementor: adding to list (68)
+0008.765 (0) finding files: logo-blue-300x249.png: adding to list (69)
+0008.765 (0) finding files: google-my-business-profile.png: adding to list (70)
+0008.765 (0) finding files: logo-blue-150x150.png: adding to list (71)
+0008.765 (0) finding files: image-optimization-150x150.jpg: adding to list (72)
+0008.765 (0) finding files: image-optimization-300x157.jpg: adding to list (73)
+0008.765 (0) finding files: Trending-Topics-Social-Media-300x250.jpg: adding to list (74)
+0008.765 (0) finding files: find-media-settings-screen-updraft-pre-smush-original.png: adding to list (75)
+0008.765 (0) finding files: website-security-150x150.png: adding to list (76)
+0008.765 (0) finding files: Shape-updraft-pre-smush-original.png: adding to list (77)
+0008.765 (0) finding files: Shape.png: adding to list (78)
+0008.765 (0) finding files: 404-150x150.png: adding to list (79)
+0008.765 (0) finding files: website-security.png: adding to list (80)
+0008.765 (0) finding files: site-logo-whitesquare-300x213.png: adding to list (81)
+0008.765 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.848 (0) Total entities for the zip file: 38 directories, 1581 files (0 skipped as non-modified), 132.6 MB
+0008.851 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.853 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.856 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 1581 files batched, 272 (272) added so far); re-opening (prior size: 0 KB)
+0009.425 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: size is now: 23.30 MB
+0009.428 (0) A useful amount of data was added after this amount of zip processing: 1.6 s (normalised: 1.5 s, rate: 16626.7 KB/s)
+0009.430 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.5620489120483, normalised_time=1.5396910178056, max_time=9.4296090602875, data points known=1, old_max_bytes=26214400, new_max_bytes=102154522)
+0009.432 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 300 files added (on-disk size: 23812.6 KB)
+0009.434 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 400 files added (on-disk size: 23812.6 KB)
+0009.435 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 500 files added (on-disk size: 23812.6 KB)
+0009.438 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 600 files added (on-disk size: 23812.6 KB)
+0009.440 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 700 files added (on-disk size: 23812.6 KB)
+0009.441 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (76.5 MB, 1581 files batched, 501 (773) added so far); re-opening (prior size: 23812.6 KB)
+0010.896 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: size is now: 99.60 MB
+0010.899 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 800 files added (on-disk size: 101974.6 KB)
+0010.902 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 900 files added (on-disk size: 101974.6 KB)
+0010.903 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 1000 files added (on-disk size: 101974.6 KB)
+0010.905 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 1100 files added (on-disk size: 101974.6 KB)
+0010.907 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 1200 files added (on-disk size: 101974.6 KB)
+0010.908 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.9 MB, 1581 files batched, 501 (1274) added so far); re-opening (prior size: 101974.6 KB)
+0011.727 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 1300 files added (on-disk size: 121416.3 KB)
+0011.730 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 1400 files added (on-disk size: 121416.3 KB)
+0011.732 (0) Zip: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip.tmp: 1500 files added (on-disk size: 121416.3 KB)
+0013.920 (0) Created uploads zip (0) - 132566.7 KB in 5.1 s (25765.5 KB/s) (sha1: 385d7ced3a42f32b53f10c1d8000845f15b1e7ba, sha256: 6dbedd44591088fe4e200f5cfc4e16ac84738555a57e9be233f133203ce99b75)
+0013.923 (0) Beginning backup of other directories found in the content directory (index: 0)
+0013.924 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0013.924 (0) Looking for candidates to backup in: /home/momparad/public_html/proudpupmedia.com/wp-content
+0013.925 (0) finding files: themes: skipping: this is the themes directory
+0013.926 (0) finding files: cache: skipping: excluded by options
+0013.929 (0) finding files: index.php: adding to list (1)
+0013.931 (0) finding files: wpo-cache: adding to list (2)
+0013.933 (0) finding files: .DS_Store: adding to list (3)
+0013.935 (0) finding files: languages: adding to list (4)
+0013.936 (0) finding files: mu-plugins: adding to list (5)
+0013.937 (0) finding files: breeze-config: adding to list (6)
+0013.937 (0) finding files: upgrade: skipping: excluded by options
+0013.938 (0) finding files: plugins: skipping: this is the plugins directory
+0013.938 (0) finding files: uploads: skipping: this is the uploads directory
+0013.939 (0) finding files: siteground-migrator.log: adding to list (7)
+0013.939 (0) finding files: advanced-cache.php: adding to list (8)
+0013.940 (0) finding files: updraft: skipping: this is the updraft directory
+0013.957 (0) Total entities for the zip file: 7 directories, 58 files (0 skipped as non-modified), 3.6 MB
+0014.197 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-others.zip.tmp: size is now: 0.90 MB
+0014.213 (0) Created others zip (0) - 885.9 KB in 0.3 s (3372.3 KB/s) (sha1: 760dfe53f74c003d9dff9ca0288c7361a265f8cc, sha256: cd9dfad605a17dc6a68849cd4ec091c5eabdd8bb1b99c65007836c88ef9ddfb8)
+0014.222 (0) Saving backup status to database (elements: 8)
+0014.228 (0) Beginning creation of database dump (WordPress DB)
+0014.230 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0014.248 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_dvfrxw836y_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = u (truncated - 1297 bytes total)
+0014.250 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0014.300 (0) Table wp_dvfrxw836y_options: Total expected rows (approximate): 597
+0014.391 (0) Table wp_dvfrxw836y_options: Total rows added: 601 in 0.09 seconds
+0014.454 (0) Table wp_dvfrxw836y_options: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_options.table.gz - 140.5 KB)
+0014.459 (0) Table wp_dvfrxw836y_users: Total expected rows (approximate): 3
+0014.462 (0) Table wp_dvfrxw836y_users: Total rows added: 3 in 0.00 seconds
+0014.463 (0) Table wp_dvfrxw836y_users: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_users.table.gz - 0.7 KB)
+0014.467 (0) Table wp_dvfrxw836y_usermeta: Total expected rows (approximate): 146
+0014.472 (0) Table wp_dvfrxw836y_usermeta: Total rows added: 155 in 0.00 seconds
+0014.472 (0) Table wp_dvfrxw836y_usermeta: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_usermeta.table.gz - 4 KB)
+0014.483 (0) Table wp_dvfrxw836y_commentmeta: Total expected rows (approximate): 6
+0014.615 (0) Table wp_dvfrxw836y_commentmeta: Total rows added: 6 in 0.01 seconds
+0014.619 (0) Table wp_dvfrxw836y_commentmeta: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_commentmeta.table.gz - 1.9 KB)
+0014.631 (0) Table wp_dvfrxw836y_comments: Total expected rows (approximate): 1
+0014.635 (0) Table wp_dvfrxw836y_comments: Total rows added: 3 in 0.00 seconds
+0014.637 (0) Table wp_dvfrxw836y_comments: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_comments.table.gz - 1.8 KB)
+0014.646 (0) Table wp_dvfrxw836y_links: Total expected rows (approximate): 0
+0014.649 (0) Table wp_dvfrxw836y_links: Total rows added: 0 in 0.00 seconds
+0014.651 (0) Table wp_dvfrxw836y_links: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_links.table.gz - 0.5 KB)
+0014.656 (0) Table wp_dvfrxw836y_postmeta: Total expected rows (approximate): 4702
+0015.121 (0) Table wp_dvfrxw836y_postmeta: Total rows added: 6523 in 0.46 seconds
+0015.122 (0) Table wp_dvfrxw836y_postmeta: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_postmeta.table.gz - 437.4 KB)
+0015.126 (0) Table wp_dvfrxw836y_posts: Total expected rows (approximate): 351
+0015.165 (0) Table wp_dvfrxw836y_posts: Total rows added: 371 in 0.04 seconds
+0015.166 (0) Table wp_dvfrxw836y_posts: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_posts.table.gz - 95.7 KB)
+0015.170 (0) Table wp_dvfrxw836y_term_relationships: Total expected rows (approximate): 215
+0015.173 (0) Table wp_dvfrxw836y_term_relationships: Total rows added: 218 in 0.00 seconds
+0015.174 (0) Table wp_dvfrxw836y_term_relationships: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_term_relationships.table.gz - 1.1 KB)
+0015.179 (0) Table wp_dvfrxw836y_term_taxonomy: Total expected rows (approximate): 94
+0015.181 (0) Table wp_dvfrxw836y_term_taxonomy: Total rows added: 94 in 0.00 seconds
+0015.184 (0) Table wp_dvfrxw836y_term_taxonomy: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_term_taxonomy.table.gz - 1.1 KB)
+0015.196 (0) Table wp_dvfrxw836y_termmeta: Total expected rows (approximate): 77
+0015.228 (0) Table wp_dvfrxw836y_termmeta: Total rows added: 77 in 0.02 seconds
+0015.229 (0) Table wp_dvfrxw836y_termmeta: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_termmeta.table.gz - 1 KB)
+0015.233 (0) Table wp_dvfrxw836y_terms: Total expected rows (approximate): 94
+0015.271 (0) Table wp_dvfrxw836y_terms: Total rows added: 94 in 0.04 seconds
+0015.273 (0) Table wp_dvfrxw836y_terms: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_terms.table.gz - 1.7 KB)
+0015.274 (0) Skipping table (lacks our prefix (wp_dvfrxw836y_)): wp_commentmeta
+0015.275 (0) Skipping table (lacks our prefix (wp_dvfrxw836y_)): wp_comments
+0015.285 (0) Table wp_dvfrxw836y_ffi_cache: Total expected rows (approximate): 0
+0015.290 (0) Table wp_dvfrxw836y_ffi_cache: Total rows added: 1 in 0.00 seconds
+0015.292 (0) Table wp_dvfrxw836y_ffi_cache: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_cache.table.gz - 0.5 KB)
+0015.304 (0) Table wp_dvfrxw836y_ffi_comments: Total expected rows (approximate): 0
+0015.309 (0) Table wp_dvfrxw836y_ffi_comments: Total rows added: 0 in 0.00 seconds
+0015.312 (0) Table wp_dvfrxw836y_ffi_comments: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_comments.table.gz - 0.3 KB)
+0015.323 (0) Table wp_dvfrxw836y_ffi_image_cache: Total expected rows (approximate): 0
+0015.328 (0) Table wp_dvfrxw836y_ffi_image_cache: Total rows added: 0 in 0.00 seconds
+0015.329 (0) Table wp_dvfrxw836y_ffi_image_cache: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_image_cache.table.gz - 0.3 KB)
+0015.337 (0) Table wp_dvfrxw836y_ffi_options: Total expected rows (approximate): 4
+0015.342 (0) Table wp_dvfrxw836y_ffi_options: Total rows added: 4 in 0.00 seconds
+0015.343 (0) Table wp_dvfrxw836y_ffi_options: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_options.table.gz - 0.8 KB)
+0015.361 (0) Table wp_dvfrxw836y_ffi_post_media: Total expected rows (approximate): 16
+0015.392 (0) Table wp_dvfrxw836y_ffi_post_media: Total rows added: 16 in 0.03 seconds
+0015.393 (0) Table wp_dvfrxw836y_ffi_post_media: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_post_media.table.gz - 1.5 KB)
+0015.406 (0) Table wp_dvfrxw836y_ffi_posts: Total expected rows (approximate): 36
+0015.419 (0) Table wp_dvfrxw836y_ffi_posts: Total rows added: 36 in 0.01 seconds
+0015.420 (0) Table wp_dvfrxw836y_ffi_posts: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_posts.table.gz - 10.7 KB)
+0015.430 (0) Table wp_dvfrxw836y_ffi_snapshots: Total expected rows (approximate): 0
+0015.435 (0) Table wp_dvfrxw836y_ffi_snapshots: Total rows added: 0 in 0.00 seconds
+0015.436 (0) Table wp_dvfrxw836y_ffi_snapshots: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_snapshots.table.gz - 0.4 KB)
+0015.448 (0) Table wp_dvfrxw836y_ffi_streams: Total expected rows (approximate): 0
+0015.456 (0) Table wp_dvfrxw836y_ffi_streams: Total rows added: 1 in 0.01 seconds
+0015.457 (0) Table wp_dvfrxw836y_ffi_streams: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_streams.table.gz - 1.4 KB)
+0015.467 (0) Table wp_dvfrxw836y_ffi_streams_sources: Total expected rows (approximate): 0
+0015.475 (0) Table wp_dvfrxw836y_ffi_streams_sources: Total rows added: 1 in 0.01 seconds
+0015.476 (0) Table wp_dvfrxw836y_ffi_streams_sources: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_streams_sources.table.gz - 0.3 KB)
+0015.489 (0) Table wp_dvfrxw836y_rank_math_404_logs: Total expected rows (approximate): 2
+0015.500 (0) Table wp_dvfrxw836y_rank_math_404_logs: Total rows added: 5 in 0.01 seconds
+0015.503 (0) Table wp_dvfrxw836y_rank_math_404_logs: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_rank_math_404_logs.table.gz - 0.8 KB)
+0015.515 (0) Table wp_dvfrxw836y_rank_math_internal_links: Total expected rows (approximate): 145
+0015.521 (0) Table wp_dvfrxw836y_rank_math_internal_links: Total rows added: 145 in 0.01 seconds
+0015.523 (0) Table wp_dvfrxw836y_rank_math_internal_links: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_rank_math_internal_links.table.gz - 2.6 KB)
+0015.533 (0) Table wp_dvfrxw836y_rank_math_internal_meta: Total expected rows (approximate): 35
+0015.538 (0) Table wp_dvfrxw836y_rank_math_internal_meta: Total rows added: 44 in 0.00 seconds
+0015.539 (0) Table wp_dvfrxw836y_rank_math_internal_meta: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_rank_math_internal_meta.table.gz - 0.6 KB)
+0015.542 (0) Table wp_dvfrxw836y_rank_math_redirections: Total expected rows (approximate): 0
+0015.545 (0) Table wp_dvfrxw836y_rank_math_redirections: Total rows added: 1 in 0.00 seconds
+0015.547 (0) Table wp_dvfrxw836y_rank_math_redirections: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_rank_math_redirections.table.gz - 0.6 KB)
+0015.551 (0) Table wp_dvfrxw836y_rank_math_redirections_cache: Total expected rows (approximate): 0
+0015.553 (0) Table wp_dvfrxw836y_rank_math_redirections_cache: Total rows added: 1 in 0.00 seconds
+0015.556 (0) Table wp_dvfrxw836y_rank_math_redirections_cache: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_rank_math_redirections_cache.table.gz - 0.5 KB)
+0015.570 (0) Table wp_dvfrxw836y_rank_math_sc_analytics: Total expected rows (approximate): 1238
+0015.608 (0) Table wp_dvfrxw836y_rank_math_sc_analytics: Total rows added: 1427 in 0.04 seconds
+0015.609 (0) Table wp_dvfrxw836y_rank_math_sc_analytics: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_rank_math_sc_analytics.table.gz - 16.3 KB)
+0015.683 (0) Table wp_dvfrxw836y_smush_dir_images: Total expected rows (approximate): 0
+0015.705 (0) Table wp_dvfrxw836y_smush_dir_images: Total rows added: 0 in 0.02 seconds
+0015.707 (0) Table wp_dvfrxw836y_smush_dir_images: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_smush_dir_images.table.gz - 0.4 KB)
+0015.729 (0) Table wp_dvfrxw836y_tm_taskmeta: Total expected rows (approximate): 0
+0015.757 (0) Table wp_dvfrxw836y_tm_taskmeta: Total rows added: 0 in 0.01 seconds
+0015.764 (0) Table wp_dvfrxw836y_tm_taskmeta: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_tm_taskmeta.table.gz - 0.4 KB)
+0015.779 (0) Table wp_dvfrxw836y_tm_tasks: Total expected rows (approximate): 0
+0015.789 (0) Table wp_dvfrxw836y_tm_tasks: Total rows added: 0 in 0.01 seconds
+0015.791 (0) Table wp_dvfrxw836y_tm_tasks: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_tm_tasks.table.gz - 0.4 KB)
+0015.802 (0) Table wp_dvfrxw836y_yoast_seo_links: Total expected rows (approximate): 174
+0015.810 (0) Table wp_dvfrxw836y_yoast_seo_links: Total rows added: 174 in 0.01 seconds
+0015.811 (0) Table wp_dvfrxw836y_yoast_seo_links: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_yoast_seo_links.table.gz - 3 KB)
+0015.822 (0) Table wp_dvfrxw836y_yoast_seo_meta: Total expected rows (approximate): 1799
+0015.844 (0) Table wp_dvfrxw836y_yoast_seo_meta: Total rows added: 1811 in 0.02 seconds
+0015.846 (0) Table wp_dvfrxw836y_yoast_seo_meta: finishing file (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_yoast_seo_meta.table.gz - 4.8 KB)
+0015.847 (0) Skipping table (lacks our prefix (wp_dvfrxw836y_)): wp_links
+0015.848 (0) Skipping table (lacks our prefix (wp_dvfrxw836y_)): wp_options
+0015.850 (0) Skipping table (lacks our prefix (wp_dvfrxw836y_)): wp_postmeta
+0015.856 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_options.table.gz (1/37): adding to final database dump
+0015.904 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_users.table.gz (2/37): adding to final database dump
+0015.905 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_usermeta.table.gz (3/37): adding to final database dump
+0015.907 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_commentmeta.table.gz (4/37): adding to final database dump
+0015.909 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_comments.table.gz (5/37): adding to final database dump
+0015.910 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_links.table.gz (6/37): adding to final database dump
+0015.911 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_postmeta.table.gz (7/37): adding to final database dump
+0016.059 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_posts.table.gz (8/37): adding to final database dump
+0016.085 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_term_relationships.table.gz (9/37): adding to final database dump
+0016.136 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_term_taxonomy.table.gz (10/37): adding to final database dump
+0016.138 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_termmeta.table.gz (11/37): adding to final database dump
+0016.141 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_terms.table.gz (12/37): adding to final database dump
+0016.143 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_cache.table.gz (13/37): adding to final database dump
+0016.145 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_comments.table.gz (14/37): adding to final database dump
+0016.145 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_image_cache.table.gz (15/37): adding to final database dump
+0016.146 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_options.table.gz (16/37): adding to final database dump
+0016.147 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_post_media.table.gz (17/37): adding to final database dump
+0016.148 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_posts.table.gz (18/37): adding to final database dump
+0016.151 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_snapshots.table.gz (19/37): adding to final database dump
+0016.152 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_streams.table.gz (20/37): adding to final database dump
+0016.153 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_ffi_streams_sources.table.gz (21/37): adding to final database dump
+0016.153 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_rank_math_404_logs.table.gz (22/37): adding to final database dump
+0016.154 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_rank_math_internal_links.table.gz (23/37): adding to final database dump
+0016.155 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_rank_math_internal_meta.table.gz (24/37): adding to final database dump
+0016.156 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_rank_math_redirections.table.gz (25/37): adding to final database dump
+0016.157 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_rank_math_redirections_cache.table.gz (26/37): adding to final database dump
+0016.158 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_rank_math_sc_analytics.table.gz (27/37): adding to final database dump
+0016.165 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_smush_dir_images.table.gz (28/37): adding to final database dump
+0016.166 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_tm_taskmeta.table.gz (29/37): adding to final database dump
+0016.167 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_tm_tasks.table.gz (30/37): adding to final database dump
+0016.168 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_yoast_seo_links.table.gz (31/37): adding to final database dump
+0016.170 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db-table-wp_dvfrxw836y_yoast_seo_meta.table.gz (32/37): adding to final database dump
+0016.175 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db.gz: finished writing out complete database file (720 KB)
+0016.231 (0) Total database tables backed up: 32 (backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db.gz, size: 742680, sha1: 18251ebbe6a092c18eb11bbeb5eb20254d96a80b, sha256: 404f363efe17ef27d1f9dc4d1d08b080eb6a8077f645d46f1569135f1a50a110)
+0016.242 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0016.242 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0016.243 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0016.244 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-others.zip: others: This file has not yet been successfully uploaded: will queue
+0016.245 (0) backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+0016.246 (0) Saving backup history. Total backup size: 158.9 MB
+0016.256 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0016.259 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0016.259 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-098ef33890f53594be4b64eaa404d319)
+0021.043 (0) Google Drive: quota usage: used=6448.6 MB, total=15360 MB, available=8911.4 MB
+0021.046 (0) Google Drive: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip: Attempting to upload to Google Drive (into folder id: 1QwzTWF88NZ-Tx3zaEYTOL3dWFVvv1RcU)
+0021.412 (0) Googledrive chunked upload: 3.8 % uploaded (1048576)
+0021.504 (0) Googledrive chunked upload: 7.5 % uploaded (2097152)
+0021.672 (0) Googledrive chunked upload: 11.3 % uploaded (3145728)
+0021.764 (0) Googledrive chunked upload: 15.1 % uploaded (4194304)
+0021.859 (0) Googledrive chunked upload: 18.9 % uploaded (5242880)
+0021.960 (0) Googledrive chunked upload: 22.6 % uploaded (6291456)
+0022.158 (0) Googledrive chunked upload: 26.4 % uploaded (7340032)
+0022.288 (0) Googledrive chunked upload: 30.2 % uploaded (8388608)
+0022.400 (0) Googledrive chunked upload: 33.9 % uploaded (9437184)
+0022.545 (0) Googledrive chunked upload: 37.7 % uploaded (10485760)
+0022.633 (0) Googledrive chunked upload: 41.5 % uploaded (11534336)
+0022.741 (0) Googledrive chunked upload: 45.2 % uploaded (12582912)
+0022.909 (0) Googledrive chunked upload: 49 % uploaded (13631488)
+0023.036 (0) Googledrive chunked upload: 52.8 % uploaded (14680064)
+0023.135 (0) Googledrive chunked upload: 56.6 % uploaded (15728640)
+0023.230 (0) Googledrive chunked upload: 60.3 % uploaded (16777216)
+0023.367 (0) Googledrive chunked upload: 64.1 % uploaded (17825792)
+0023.462 (0) Googledrive chunked upload: 67.9 % uploaded (18874368)
+0023.691 (0) Googledrive chunked upload: 71.6 % uploaded (19922944)
+0023.791 (0) Googledrive chunked upload: 75.4 % uploaded (20971520)
+0023.892 (0) Googledrive chunked upload: 79.2 % uploaded (22020096)
+0023.996 (0) Googledrive chunked upload: 82.9 % uploaded (23068672)
+0024.103 (0) Googledrive chunked upload: 86.7 % uploaded (24117248)
+0024.201 (0) Googledrive chunked upload: 90.5 % uploaded (25165824)
+0024.317 (0) Googledrive chunked upload: 94.3 % uploaded (26214400)
+0024.411 (0) Googledrive chunked upload: 98 % uploaded (27262976)
+0025.789 (0) Googledrive chunked upload: 100 % uploaded (27262976)
+0025.792 (0) Google Drive: OK: Archive backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip uploaded in 4.75 seconds
+0025.793 (0) Recording as successfully uploaded: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip
+0025.801 (0) Deleting local file: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-plugins.zip: OK
+0025.994 (0) Google Drive: quota usage: used=6448.6 MB, total=15360 MB, available=8911.4 MB
+0025.995 (0) Google Drive: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-themes.zip: Attempting to upload to Google Drive (into folder id: 1QwzTWF88NZ-Tx3zaEYTOL3dWFVvv1RcU)
+0026.368 (0) Googledrive chunked upload: 77.2 % uploaded (1048576)
+0027.148 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0027.151 (0) Google Drive: OK: Archive backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-themes.zip uploaded in 1.16 seconds
+0027.152 (0) Recording as successfully uploaded: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-themes.zip
+0027.156 (0) Deleting local file: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-themes.zip: OK
+0027.317 (0) Google Drive: quota usage: used=6475.2 MB, total=15360 MB, available=8884.8 MB
+0027.318 (0) Google Drive: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip: Attempting to upload to Google Drive (into folder id: 1QwzTWF88NZ-Tx3zaEYTOL3dWFVvv1RcU)
+0027.634 (0) Googledrive chunked upload: 0.8 % uploaded (1048576)
+0027.768 (0) Googledrive chunked upload: 1.5 % uploaded (2097152)
+0027.911 (0) Googledrive chunked upload: 2.3 % uploaded (3145728)
+0028.061 (0) Googledrive chunked upload: 3.1 % uploaded (4194304)
+0028.173 (0) Googledrive chunked upload: 3.9 % uploaded (5242880)
+0028.270 (0) Googledrive chunked upload: 4.6 % uploaded (6291456)
+0028.377 (0) Googledrive chunked upload: 5.4 % uploaded (7340032)
+0028.496 (0) Googledrive chunked upload: 6.2 % uploaded (8388608)
+0028.620 (0) Googledrive chunked upload: 7 % uploaded (9437184)
+0028.710 (0) Googledrive chunked upload: 7.7 % uploaded (10485760)
+0028.798 (0) Googledrive chunked upload: 8.5 % uploaded (11534336)
+0028.907 (0) Googledrive chunked upload: 9.3 % uploaded (12582912)
+0029.022 (0) Googledrive chunked upload: 10 % uploaded (13631488)
+0029.109 (0) Googledrive chunked upload: 10.8 % uploaded (14680064)
+0029.217 (0) Googledrive chunked upload: 11.6 % uploaded (15728640)
+0029.360 (0) Googledrive chunked upload: 12.4 % uploaded (16777216)
+0029.476 (0) Googledrive chunked upload: 13.1 % uploaded (17825792)
+0029.635 (0) Googledrive chunked upload: 13.9 % uploaded (18874368)
+0029.744 (0) Googledrive chunked upload: 14.7 % uploaded (19922944)
+0029.840 (0) Googledrive chunked upload: 15.4 % uploaded (20971520)
+0029.931 (0) Googledrive chunked upload: 16.2 % uploaded (22020096)
+0030.056 (0) Googledrive chunked upload: 17 % uploaded (23068672)
+0030.184 (0) Googledrive chunked upload: 17.8 % uploaded (24117248)
+0030.299 (0) Googledrive chunked upload: 18.5 % uploaded (25165824)
+0030.415 (0) Googledrive chunked upload: 19.3 % uploaded (26214400)
+0030.552 (0) Googledrive chunked upload: 20.1 % uploaded (27262976)
+0030.648 (0) Googledrive chunked upload: 20.9 % uploaded (28311552)
+0030.780 (0) Googledrive chunked upload: 21.6 % uploaded (29360128)
+0030.887 (0) Googledrive chunked upload: 22.4 % uploaded (30408704)
+0031.161 (0) Googledrive chunked upload: 23.2 % uploaded (31457280)
+0031.315 (0) Googledrive chunked upload: 23.9 % uploaded (32505856)
+0031.483 (0) Googledrive chunked upload: 24.7 % uploaded (33554432)
+0031.577 (0) Googledrive chunked upload: 25.5 % uploaded (34603008)
+0031.762 (0) Googledrive chunked upload: 26.3 % uploaded (35651584)
+0031.861 (0) Googledrive chunked upload: 27 % uploaded (36700160)
+0032.010 (0) Googledrive chunked upload: 27.8 % uploaded (37748736)
+0032.189 (0) Googledrive chunked upload: 28.6 % uploaded (38797312)
+0032.328 (0) Googledrive chunked upload: 29.4 % uploaded (39845888)
+0032.512 (0) Googledrive chunked upload: 30.1 % uploaded (40894464)
+0032.693 (0) Googledrive chunked upload: 30.9 % uploaded (41943040)
+0032.786 (0) Googledrive chunked upload: 31.7 % uploaded (42991616)
+0032.891 (0) Googledrive chunked upload: 32.4 % uploaded (44040192)
+0033.004 (0) Googledrive chunked upload: 33.2 % uploaded (45088768)
+0033.119 (0) Googledrive chunked upload: 34 % uploaded (46137344)
+0033.224 (0) Googledrive chunked upload: 34.8 % uploaded (47185920)
+0033.363 (0) Googledrive chunked upload: 35.5 % uploaded (48234496)
+0033.455 (0) Googledrive chunked upload: 36.3 % uploaded (49283072)
+0033.589 (0) Googledrive chunked upload: 37.1 % uploaded (50331648)
+0033.715 (0) Googledrive chunked upload: 37.8 % uploaded (51380224)
+0033.812 (0) Googledrive chunked upload: 38.6 % uploaded (52428800)
+0033.942 (0) Googledrive chunked upload: 39.4 % uploaded (53477376)
+0034.132 (0) Googledrive chunked upload: 40.2 % uploaded (54525952)
+0034.229 (0) Googledrive chunked upload: 40.9 % uploaded (55574528)
+0034.418 (0) Googledrive chunked upload: 41.7 % uploaded (56623104)
+0034.508 (0) Googledrive chunked upload: 42.5 % uploaded (57671680)
+0034.699 (0) Googledrive chunked upload: 43.3 % uploaded (58720256)
+0034.804 (0) Googledrive chunked upload: 44 % uploaded (59768832)
+0034.932 (0) Googledrive chunked upload: 44.8 % uploaded (60817408)
+0035.074 (0) Googledrive chunked upload: 45.6 % uploaded (61865984)
+0035.217 (0) Googledrive chunked upload: 46.3 % uploaded (62914560)
+0035.363 (0) Googledrive chunked upload: 47.1 % uploaded (63963136)
+0035.471 (0) Googledrive chunked upload: 47.9 % uploaded (65011712)
+0035.582 (0) Googledrive chunked upload: 48.7 % uploaded (66060288)
+0035.776 (0) Googledrive chunked upload: 49.4 % uploaded (67108864)
+0035.886 (0) Googledrive chunked upload: 50.2 % uploaded (68157440)
+0036.068 (0) Googledrive chunked upload: 51 % uploaded (69206016)
+0036.188 (0) Googledrive chunked upload: 51.8 % uploaded (70254592)
+0036.328 (0) Googledrive chunked upload: 52.5 % uploaded (71303168)
+0036.566 (0) Googledrive chunked upload: 53.3 % uploaded (72351744)
+0036.767 (0) Googledrive chunked upload: 54.1 % uploaded (73400320)
+0037.272 (0) Googledrive chunked upload: 54.8 % uploaded (74448896)
+0037.378 (0) Googledrive chunked upload: 55.6 % uploaded (75497472)
+0037.780 (0) Googledrive chunked upload: 56.4 % uploaded (76546048)
+0037.927 (0) Googledrive chunked upload: 57.2 % uploaded (77594624)
+0038.047 (0) Googledrive chunked upload: 57.9 % uploaded (78643200)
+0038.174 (0) Googledrive chunked upload: 58.7 % uploaded (79691776)
+0038.373 (0) Googledrive chunked upload: 59.5 % uploaded (80740352)
+0038.474 (0) Googledrive chunked upload: 60.3 % uploaded (81788928)
+0038.650 (0) Googledrive chunked upload: 61 % uploaded (82837504)
+0038.757 (0) Googledrive chunked upload: 61.8 % uploaded (83886080)
+0038.911 (0) Googledrive chunked upload: 62.6 % uploaded (84934656)
+0039.104 (0) Googledrive chunked upload: 63.3 % uploaded (85983232)
+0039.206 (0) Googledrive chunked upload: 64.1 % uploaded (87031808)
+0039.401 (0) Googledrive chunked upload: 64.9 % uploaded (88080384)
+0039.541 (0) Googledrive chunked upload: 65.7 % uploaded (89128960)
+0039.776 (0) Googledrive chunked upload: 66.4 % uploaded (90177536)
+0039.960 (0) Googledrive chunked upload: 67.2 % uploaded (91226112)
+0040.150 (0) Googledrive chunked upload: 68 % uploaded (92274688)
+0040.246 (0) Googledrive chunked upload: 68.7 % uploaded (93323264)
+0040.614 (0) Googledrive chunked upload: 69.5 % uploaded (94371840)
+0040.734 (0) Googledrive chunked upload: 70.3 % uploaded (95420416)
+0040.880 (0) Googledrive chunked upload: 71.1 % uploaded (96468992)
+0041.067 (0) Googledrive chunked upload: 71.8 % uploaded (97517568)
+0041.214 (0) Googledrive chunked upload: 72.6 % uploaded (98566144)
+0041.371 (0) Googledrive chunked upload: 73.4 % uploaded (99614720)
+0041.493 (0) Googledrive chunked upload: 74.2 % uploaded (100663296)
+0041.635 (0) Googledrive chunked upload: 74.9 % uploaded (101711872)
+0041.734 (0) Googledrive chunked upload: 75.7 % uploaded (102760448)
+0041.911 (0) Googledrive chunked upload: 76.5 % uploaded (103809024)
+0042.089 (0) Googledrive chunked upload: 77.2 % uploaded (104857600)
+0042.235 (0) Googledrive chunked upload: 78 % uploaded (105906176)
+0042.356 (0) Googledrive chunked upload: 78.8 % uploaded (106954752)
+0042.597 (0) Googledrive chunked upload: 79.6 % uploaded (108003328)
+0042.742 (0) Googledrive chunked upload: 80.3 % uploaded (109051904)
+0042.889 (0) Googledrive chunked upload: 81.1 % uploaded (110100480)
+0043.074 (0) Googledrive chunked upload: 81.9 % uploaded (111149056)
+0043.281 (0) Googledrive chunked upload: 82.7 % uploaded (112197632)
+0043.429 (0) Googledrive chunked upload: 83.4 % uploaded (113246208)
+0043.564 (0) Googledrive chunked upload: 84.2 % uploaded (114294784)
+0043.750 (0) Googledrive chunked upload: 85 % uploaded (115343360)
+0043.904 (0) Googledrive chunked upload: 85.7 % uploaded (116391936)
+0044.346 (0) Googledrive chunked upload: 86.5 % uploaded (117440512)
+0044.448 (0) Googledrive chunked upload: 87.3 % uploaded (118489088)
+0044.560 (0) Googledrive chunked upload: 88.1 % uploaded (119537664)
+0044.877 (0) Googledrive chunked upload: 88.8 % uploaded (120586240)
+0045.059 (0) Googledrive chunked upload: 89.6 % uploaded (121634816)
+0045.157 (0) Googledrive chunked upload: 90.4 % uploaded (122683392)
+0045.324 (0) Googledrive chunked upload: 91.1 % uploaded (123731968)
+0045.559 (0) Googledrive chunked upload: 91.9 % uploaded (124780544)
+0045.662 (0) Googledrive chunked upload: 92.7 % uploaded (125829120)
+0045.818 (0) Googledrive chunked upload: 93.5 % uploaded (126877696)
+0046.010 (0) Googledrive chunked upload: 94.2 % uploaded (127926272)
+0046.139 (0) Googledrive chunked upload: 95 % uploaded (128974848)
+0046.404 (0) Googledrive chunked upload: 95.8 % uploaded (130023424)
+0046.646 (0) Googledrive chunked upload: 96.6 % uploaded (131072000)
+0046.843 (0) Googledrive chunked upload: 97.3 % uploaded (132120576)
+0046.942 (0) Googledrive chunked upload: 98.1 % uploaded (133169152)
+0047.109 (0) Googledrive chunked upload: 98.9 % uploaded (134217728)
+0047.206 (0) Googledrive chunked upload: 99.6 % uploaded (135266304)
+0048.318 (0) Googledrive chunked upload: 100 % uploaded (135266304)
+0048.321 (0) Google Drive: OK: Archive backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip uploaded in 21 seconds
+0048.322 (0) Recording as successfully uploaded: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip
+0048.347 (0) Deleting local file: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-uploads.zip: OK
+0048.580 (0) Google Drive: quota usage: used=6605.9 MB, total=15360 MB, available=8754.1 MB
+0048.582 (0) Google Drive: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-others.zip: Attempting to upload to Google Drive (into folder id: 1QwzTWF88NZ-Tx3zaEYTOL3dWFVvv1RcU)
+0049.741 (0) Googledrive chunked upload: 100 % uploaded
+0049.745 (0) Google Drive: OK: Archive backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-others.zip uploaded in 1.16 seconds
+0049.746 (0) Recording as successfully uploaded: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-others.zip
+0049.748 (0) Deleting local file: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-others.zip: OK
+0049.908 (0) Google Drive: quota usage: used=6606.8 MB, total=15360 MB, available=8753.2 MB
+0049.915 (0) Google Drive: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db.gz: Attempting to upload to Google Drive (into folder id: 1QwzTWF88NZ-Tx3zaEYTOL3dWFVvv1RcU)
+0051.005 (0) Googledrive chunked upload: 100 % uploaded
+0051.008 (0) Google Drive: OK: Archive backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db.gz uploaded in 1.09 seconds
+0051.008 (0) Recording as successfully uploaded: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db.gz
+0051.010 (0) Deleting local file: backup_2020-02-23-2210_Proud_Pup_Media_ea81657ca2e9-db.gz: OK
+0051.012 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0051.013 (0) Number of backup sets in history: 4; groups (db): 1
+0051.014 (0) Examining (for databases) backup set with group_id=0, nonce=ea81657ca2e9, datestamp=1582521053 (Feb 24 2020 05:10:53)
+0051.015 (0) This backup set is the backup set just made, so will not be deleted.
+0051.015 (0) Examining (for databases) backup set with group_id=0, nonce=f33463bd1972, datestamp=1582432046 (Feb 23 2020 04:27:26)
+0051.016 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0051.016 (0) Examining (for databases) backup set with group_id=0, nonce=cfb548be9688, datestamp=1582345698 (Feb 22 2020 04:28:18)
+0051.016 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0051.016 (0) Examining (for databases) backup set with group_id=0, nonce=fe9b049ab3d0, datestamp=1582260481 (Feb 21 2020 04:48:01)
+0051.016 (0) 1582260481: db: this set includes a database (backup_2020-02-20-2148_Proud_Pup_Media_fe9b049ab3d0-db.gz); db count is now 3
+0051.016 (0) 1582260481: db: over retain limit (3); will delete this database
+0051.016 (0) Delete file: backup_2020-02-20-2148_Proud_Pup_Media_fe9b049ab3d0-db.gz, service=googledrive
+0052.967 (0) Google Drive: backup_2020-02-20-2148_Proud_Pup_Media_fe9b049ab3d0-db.gz: Deletion successful
+0052.970 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0052.971 (0) Number of backup sets in history: 4; groups (files): 1
+0052.972 (0) Examining (for files) backup set with nonce=ea81657ca2e9, datestamp=1582521053 (Feb 24 2020 05:10:53)
+0052.972 (0) This backup set is the backup set just made, so will not be deleted.
+0052.973 (0) This backup set is the backup set just made, so will not be deleted.
+0052.973 (0) This backup set is the backup set just made, so will not be deleted.
+0052.973 (0) This backup set is the backup set just made, so will not be deleted.
+0052.973 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0052.973 (0) Examining (for files) backup set with nonce=f33463bd1972, datestamp=1582432046 (Feb 23 2020 04:27:26)
+0052.973 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0052.974 (0) Examining (for files) backup set with nonce=cfb548be9688, datestamp=1582345698 (Feb 22 2020 04:28:18)
+0052.974 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0052.974 (0) Examining (for files) backup set with nonce=fe9b049ab3d0, datestamp=1582260481 (Feb 21 2020 04:48:01)
+0052.974 (0) plugins: over retain limit (3); will delete this file entity
+0052.974 (0) themes: over retain limit (3); will delete this file entity
+0052.974 (0) uploads: over retain limit (3); will delete this file entity
+0052.974 (0) others: over retain limit (3); will delete this file entity
+0052.974 (0) Delete file: backup_2020-02-20-2148_Proud_Pup_Media_fe9b049ab3d0-plugins.zip, service=googledrive
+0052.975 (0) Delete file: backup_2020-02-20-2148_Proud_Pup_Media_fe9b049ab3d0-themes.zip, service=googledrive
+0052.976 (0) Delete file: backup_2020-02-20-2148_Proud_Pup_Media_fe9b049ab3d0-uploads.zip, service=googledrive
+0052.976 (0) Delete file: backup_2020-02-20-2148_Proud_Pup_Media_fe9b049ab3d0-others.zip, service=googledrive
+0054.135 (0) Google Drive: backup_2020-02-20-2148_Proud_Pup_Media_fe9b049ab3d0-others.zip: Deletion successful
+0054.733 (0) Google Drive: backup_2020-02-20-2148_Proud_Pup_Media_fe9b049ab3d0-uploads.zip: Deletion successful
+0055.479 (0) Google Drive: backup_2020-02-20-2148_Proud_Pup_Media_fe9b049ab3d0-themes.zip: Deletion successful
+0056.021 (0) Google Drive: backup_2020-02-20-2148_Proud_Pup_Media_fe9b049ab3d0-plugins.zip: Deletion successful
+0056.032 (0) This backup set is now empty; will remove from history
+0056.033 (0) Deleting log file (log.fe9b049ab3d0.txt)
+0056.034 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0056.039 (0) Resume backup (ea81657ca2e9, 0): finish run
+0056.040 (0) Decremented the semaphore (fd) by 1
+0056.041 (0) Semaphore (fd) unlocked
+0056.042 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0056.048 (0) The backup apparently succeeded and is now complete
+0056.048 (0) Fetching RSS news feed
+0056.175 (0) Fetched RSS news feed; result is a: SimplePie
+0056.211 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: leean...
+0056.305 (0) The backup apparently succeeded and is now complete.

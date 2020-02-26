@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+$environment_variable = '{"theme":{"folder_name":"thePack-Elementor","mapped_name":"thepack"},"allowed_paths":["\/Users\/lee-anne\/Sites\/ProudPupMedia\/wp-content\/themes"],"cache_path":"\/Users\/lee-anne\/Sites\/ProudPupMedia\/wp-content\/cache\/wph\/","wordpress_directory":"","site_relative_path":"\/ProudPupMedia\/"}'; ?>
